@@ -1,0 +1,76 @@
+body { margin:0px;padding0;margin:0px; background:#f8f8f8;  }
+.container { display:block; position:relative; clear:both; width:900px; margin:0px auto;}
+.container h1 { font-size:35px; color:#000000; font-weight:normal; padding:15px 0px; margin:0px; }
+.container h2 { font-size:24px; color:#333333; font-weight:normal; padding:0px; margin:0px; }
+.container p { text-align:justify; padding:10px; margin:0px; }
+.container p ol, #container p ul { margin:0px auto 0px; }
+.container p.notes { color:#999999; font-size:10px; }
+/* ----------------IMAGE SLIDER------------- */
+#SlideItMoo_outer {  
+	width:945px !important;
+	margin-top:20px;
+	background:#FFF;
+	display:block; 
+	position:relative;
+	height:185px; 
+	padding:8px;
+}
+/* create custom forward-backward buttons for this container */
+#SlideItMoo_outer .SlideItMoo_forward,
+#SlideItMoo_outer .SlideItMoo_back{ 
+	display:block; 
+	position:absolute; 
+	cursor:pointer; 
+	width:20px; 
+	height:240px;
+	bottom:0px; 
+	right:0;
+	background:url(./images/slideitmoo_forward2.png) no-repeat center;  
+}
+#SlideItMoo_outer .SlideItMoo_back { 
+	left:0px; 
+	background:url(./images/slideitmoo_back2.png) no-repeat center;  
+}
+
+/* the width is set to show the number of thumbnails that will be visible */
+#SlideItMoo_inner{ 
+	position:relative ;
+	overflow:hidden ; 
+	width:474px ; /* set a display width to make the slider look good in case js is disabled */
+	margin:0px auto 0px;
+	/*padding:10px 0px 10px;*/ /* margen arriba y abajo de las imagenes */
+	padding:0px;
+}
+/* the thumbnails container; set a width on it so everything will be fine */
+#SlideItMoo_items { 
+	display:block; 
+	position:relative;
+	padding-top: 5px;
+}
+/* single element design */
+#SlideItMoo_items div.SlideItMoo_element {
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  color: #333333;
+  display: block;
+  float: left;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 4px 0 3px;
+  padding: 10px 8px;
+  position: relative;
+  text-align: center;
+  width: 205px;
+}
+#SlideItMoo_items a { padding:0px; /*margin:3px 0px 3px;*/ margin:0px; clear:both; display:block; /*padding:2px;*/ padding:0px; }
+#SlideItMoo_items a img{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
