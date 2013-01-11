@@ -1,71 +1,1 @@
-@charset "utf-8";
-
-	dl.tabs {
-		position:relative;
-		margin:0;
-	}
-		dl.tabs dt {
-			/*background:#e0e0e0;*/
-			padding:9px 10px;
-			border: 1px solid #ddd; 
-			border-top: 1px solid #E2E2E2; 
-			color:#7a7a7a;
-			float:left;
-			padding:7px 9px 8px 9px;
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
-			font-weight:bold;
-			margin:0 3px 0 0;
-			background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);
-			background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);
-			background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);
-			background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);
-			background-image: linear-gradient(bottom, #f1f1f1, #fff);	
-		}
-/*borde de cada tab o pestaña jgl*/			
-		dl.tabs dd {
-			border:10px solid #F15D22;
-			height:278px;	
-			clear:both;
-			display:block;
-			background-color:#FFF;
-		}
-					
-		/* if JS is ACTIVATED, enable new style to dl.tabs */
-		dl.tabs.enabled {
-			height:352px;
-			
-		}
-		dl.tabs.enabled dt {
-			border-width:1;
-			border-color:#e8e8e8;
-			border-style:solid;
-			color:#7a7a7a;
-			cursor:pointer;
-			
-		}
-			dl.tabs.enabled dt:hover {
-			background-color:#d2d2d2;
-			color:#fff;
-			}
-		dl.tabs.enabled dt.active {
-			background:#F15D22;
-			padding:10px;
-			border:none;
-			color:#000;
-			cursor:default;
-			color:#FFF;
-		}
-			dl.tabs.enabled dd {
-			clear: none;
-			font-size: 13px;
-			left: 0;
-			margin: 0;
-			padding: 10px;
-			position: absolute;
-			top: 34px;
-			z-index: 1;
-		}
-			dl.tabs.enabled dd.active {
-				z-index:3;
-			}
+@charset "utf-8";	dl.tabs {		position:relative;		margin:0;	}		dl.tabs dt {			/*background:#e0e0e0;*/			padding:9px 10px;			border: 1px solid #ddd; 			border-top: 1px solid #E2E2E2; 			color:#7a7a7a;			float:left;			padding:7px 9px 8px 9px;			font-family:Arial, Helvetica, sans-serif;			font-size:12px;			font-weight:bold;			margin:0 3px 0 0;			background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);			background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);			background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);			background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);			background-image: linear-gradient(bottom, #f1f1f1, #fff);			}/*borde de cada tab o pestaña jgl*/					dl.tabs dd {			border:10px solid #F15D22;			height:278px;				clear:both;			display:block;			background-color:#FFF;		}							/* if JS is ACTIVATED, enable new style to dl.tabs */		dl.tabs.enabled {			height:352px;					}		dl.tabs.enabled dt {			border-width:1;			border-color:#333333;			border-style:solid;			color:#7a7a7a;			cursor:pointer;					}			dl.tabs.enabled dt:hover {			background-color:#d2d2d2;			color:#fff;			}		dl.tabs.enabled dt.active {			background:#F15D22;			padding:10px;			border:none;			color:#000;			cursor:default;			color:#FFF;		}			dl.tabs.enabled dd {			clear: none;			font-size: 13px;			left: 0;			margin: 0;			padding: 10px;			position: absolute;			top: 34px;			z-index: 1;		}			dl.tabs.enabled dd.active {				z-index:3;			}

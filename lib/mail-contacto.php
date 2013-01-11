@@ -8,8 +8,8 @@ $mail->Host = "localhost";
 $mail->From = $correo;
 $mail->FromName = "Contacto desde Web";
 $mail->Subject = $asunto;
-$mail->AddAddress("contacto@platafomagoup.cl","Contacto PlataformaGroup");
-//$mail->AddAddress("prueba2@w7.cl","Nombre 02");
+//$mail->AddAddress("contacto@platafomagoup.cl","Contacto PlataformaGroup");
+$mail->AddAddress("jorge@w7.cl","Jorge gatica");
 //$mail->AddCC("prueba3@w7.cl");
 //$mail->AddBCC("prueba4@w7.cl");//$mail->AddEmbeddedImage('logo.jpg','my-attach','logo.jpg');//jgl probando incrustar imagenes para outloo/*
  * DATOS DEL CONTACTO: armando el cuerpo del mensaje
