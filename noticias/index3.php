@@ -10,10 +10,10 @@ if (is_file("../lib/general.php")) {
 	include_once("lib/constantes.php");
 	include_once("lib/general.php");
 }
-	$selected = "NOSOTROS";
+	$selected = "NOTICIAS";
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PLANTILLA « Plataforma Group</title>
+<title><?=$selected;?> « Plataforma Group</title>
 <link type="text/css" rel="stylesheet" href="../css/styles.css" />
 <link type="text/css" rel="stylesheet" href="../css/blog/styles.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -90,7 +90,7 @@ if (is_file("../lib/general.php")) {
 			  			</div>
 			  		</div>
 			  		<div class="postInf">
-			  			<a href="tincidunt-neque-inceptos-32-p32.html">
+			  			<a href="plataformagroup-es-partner-solmicro.php">
 			  				<span class="postMore">
 			  					Leer mas...
 			  				</span>
