@@ -70,7 +70,7 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-3.jpg">
+			  					<img class="introThum" src="../images/blog/intro/solmicro.jpg" alt="Alianza con solmicro" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
@@ -78,7 +78,7 @@ if (is_file("../lib/general.php")) {
 			  					<h2>PLATAFORMA GROUP es partner de SOLMICRO</h2>
 			  				</div>
 			  				<div class="postDate">
-			  					<span>Martes 05 de Marzo de 2013</span>
+			  					<span>Martes 06 de Marzo de 2013</span>
 			  				</div>
 			  				<div class="postCategory">
 			  							  					<span>Novedades</span>
@@ -101,21 +101,21 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-1.jpg">
+			  					<img class="introThum" src="../images/blog/intro/pb-bci.jpg" alt="Caso de exito con BCI" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
 			  				<div class="postTitle">
-			  					<h2>tincidunt neque inceptos 30</h2>
+			  					<h2>Caso de éxito PB Soluciones - Banco BCI</h2>
 			  				</div>
 			  				<div class="postDate">
-			  					<span>Lunes 03 de Septiembre de 2012</span>
+			  					<span>Miércoles 06 de Marzo de 2013</span>
 			  				</div>
 			  				<div class="postCategory">
 			  							  					<span>Novedades</span>
 			  				</div>
 			  				<div class="postDetail">
-			  					<p>Adipiscing mi gravida at platea hendrerit sem suscipit nam interdum venenatis inceptos donec potenti   						
+			  					<p>La empresa PB Soluciones, ha elegido a PLATAFORMA GROUP como proveedor de servicios y a ServiceTonic 
 			  					</p>
 			  				</div>  				  				  				
 			  			</div>
@@ -133,53 +133,21 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-1.jpg">
+			  					<img class="introThum" src="../images/blog/intro/brp-santander.jpg" alt="BRP para Banco SANTANDER" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
 			  				<div class="postTitle">
-			  					<h2>tincidunt neque inceptos 30</h2>
+			  					<h2>Plataforma BRP para Banco SANTANDER</h2>
 			  				</div>
 			  				<div class="postDate">
-			  					<span>Lunes 03 de Septiembre de 2012</span>
+			  					<span>Miércoles 06 de Marzo de 2013</span>
 			  				</div>
 			  				<div class="postCategory">
 			  							  					<span>Novedades</span>
 			  				</div>
 			  				<div class="postDetail">
-			  					<p>Adipiscing mi gravida at platea hendrerit sem suscipit nam interdum venenatis inceptos donec potenti   						
-			  					</p>
-			  				</div>  				  				  				
-			  			</div>
-			  		</div>
-			  		<div class="postInf">
-			    		
-			  			<a href="tincidunt-neque-inceptos-30-p30.html">
-			  				<span class="postMore">
-			  					Leer mas...
-			  				</span>
-			  			</a>
-			  		</div>
-			  	</div>
-			  	<div class="post">
-			  		<div class="postSup">
-			  			<div class="introImg">
-			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-1.jpg">
-			  				</div>
-			  			</div>
-			  			<div class="introText">
-			  				<div class="postTitle">
-			  					<h2>tincidunt neque inceptos 30</h2>
-			  				</div>
-			  				<div class="postDate">
-			  					<span>Lunes 03 de Septiembre de 2012</span>
-			  				</div>
-			  				<div class="postCategory">
-			  							  					<span>Novedades</span>
-			  				</div>
-			  				<div class="postDetail">
-			  					<p>Adipiscing mi gravida at platea hendrerit sem suscipit nam interdum venenatis inceptos donec potenti   						
+			  					<p>Esta Plataforma diseñada para la Administración de Bienes Reposeídos fue construida por PLATAFORMA GROUP el año 2003
 			  					</p>
 			  				</div>  				  				  				
 			  			</div>
@@ -197,7 +165,7 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-3.jpg">
+			  					<img class="introThum" src="../images/blog/intro/remates-en-vivo.jpg" alt="Lanzamiento Plataforma de Remates en Vivo" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
@@ -230,7 +198,7 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/noticias-1.jpg">
+			  					<img class="introThum" src="../images/blog/intro/cvc-comaoo.jpg" alt="Asistencia CVC-COMAO" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
@@ -262,7 +230,7 @@ if (is_file("../lib/general.php")) {
 			  		<div class="postSup">
 			  			<div class="introImg">
 			  				<div class="wrapIntroImg" style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);padding: 4px;background-color: #FFFFFF; width: 190px; height: 120px;">
-			  					<img class="introThum" src="../images/blog/default.jpg">
+			  					<img class="introThum" src="../images/blog/intro/certificacion-iso.jpg" alt="Certificación ISO9001" />
 			  				</div>
 			  			</div>
 			  			<div class="introText">
@@ -295,7 +263,7 @@ if (is_file("../lib/general.php")) {
 			<!-- Begin Right Column -->
 			<div id="rightcolumn">
 				<div id="noticias-right">
-					<img src="../images/ipad-relleno.jpg">
+					<img src="../images/ipad-relleno.jpg" />
 				</div>			
 				<div class="postModulo">
 					<div class="postModuloTitle">
@@ -306,16 +274,6 @@ if (is_file("../lib/general.php")) {
 				</div>
 			</div><!-- End Right Column -->
 			<div class="clearfix"></div>
-			<div id="footerBlog">
-				<div id="paginacion">
-					<p>
-								<span>Anterior</span>
-						
-							
-		| 
-								<a href="?pos=3&amp;cat=1" title="Siguiente">Siguiente</a>
-						</p></div>
-			</div>
 		</div><!-- End wrapperBlog -->    
     </div>
 	<?php include_once("../partes/footer.php"); ?>
