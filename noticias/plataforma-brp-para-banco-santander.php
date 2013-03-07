@@ -66,9 +66,6 @@ if (is_file("../lib/general.php")) {
   padding: 10px 10px 10px 0;
   width: 668px;
 }
-#wrapperBlog #leftcolumn h1 {
-	font-size: 20px;
-}
 #leftcolumn .detalle_post {
 	width: 630px;
 }
@@ -98,7 +95,7 @@ if (is_file("../lib/general.php")) {
 		<div id="wrapperBlog">
 			<!-- Begin Left Column -->
 			<div id="leftcolumn">
-				<h1>PLATAFORMA GROUP es partner de SOLMICRO</h1>
+				<h1>Plataforma BRP para Banco SANTANDER</h1>
 				<div class="detalle_post">	
 					<div class="wrap_datos">
 						<div class="postDate">
@@ -108,22 +105,26 @@ if (is_file("../lib/general.php")) {
 							<span>Novedades</span>
 						</div>	
 			  		</div>		
-					<p><img src="../images/solmicro_186px.jpg" alt="Solmicro" style="float: left; margin: 10px;" />
-					La empresa española SOLMICRO, que cuenta con el software ERP más innovador - 
-					<strong>Solmicro-eXpertis ERP</strong>, ha elegido a PLATAFORMA GROUP como partner privilegiado 
-					para su instalación en Latinoamérica. Esta asociación, nos potencia como un 
-					proveedor único de soluciones integrales de negocios, cubriendo una amplia gama 
-					de soluciones verticales ERP específicos para cada sector: Industrial, Ingenierías, 
-					Alquiler de Maquinaria, Bodegas, Construcción, Gestión de Inmuebles, Instaladoras, 
-					Servicios, Business Intelligence, Mantenimiento, RR.HH., e-Commerce,  TPV. CRM y CRM Tablet. 
-					<strong>Todo dentro de una única solución integrada</strong>. <span.vermas>Ver más</span>
+					<p><img src="../images/noticias/fotos_noticia_brp-santander.jpg" alt="BRP para Banco SANTANDER" style="float: left; margin: 10px;" />
+					Esta Plataforma diseñada para la Administración de Bienes Reposeídos fue construida 
+					por PLATAFORMA GROUP el año 2003, lo que se tradujo para el Banco en una mejora significativa 
+					de la labor que ellos realizaban, permitiéndoles tener en una sola aplicación todas las 
+					propiedades en venta (con sus distintos estados), toda la información referente al ingreso y 
+					seguimiento de ofertas por parte de los corredores, así como el manejo de los gastos asociados 
+					y sus aprobaciones, solicitudes de comités de ofertas, además de informes de gestión y 
+					estadísticas de ventas.
 					</p>
-					<p>SOLMICRO es una empresa que en sus dos décadas de existencia ha evolucionado hasta 
-					convertirse en un proveedor de Soluciones Integrales de Negocio para todo tipo de empresas 
-					con más de 1000 soluciones instaladas en todo el mundo. 
+					<p>Posterior a su implementación, Banco Santander continuó junto a nosotros con el servicio 
+					de mantención y mejoramiento del sistema por alrededor de 3 años más, hasta que por política 
+					interna del Banco, debió pasar a ser administrado por ellos mismos.
 					</p>
-					<p>
-					<em>Para mayor información visite: <a href="http://www.solmicro.com/programas-de-gestion/erp-software-de-gestion.html" target="_blank">SOLMICRO</a>  o contáctenos a: <a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a></em>
+					<p>Hoy, después de 5 años, el Banco Santander ha recurrido nuevamente a nosotros para potenciar 
+					aún más esta herramienta de trabajo, la que será adecuada a las nuevas necesidades del Banco, 
+					de los Corredores de Propiedades y de los distintos usuarios que interactúan día a día en este 
+					complejo proceso de venta.
+					</p>
+					<p>Todo esto ha significado volver a contar con este prestigioso Banco como un cliente activo 
+					de nuestra empresa, lo que sin duda nos llena de orgullo y desafíos.
 					</p>
 				</div>
 			</div>

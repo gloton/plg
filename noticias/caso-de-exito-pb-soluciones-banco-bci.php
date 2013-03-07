@@ -66,9 +66,6 @@ if (is_file("../lib/general.php")) {
   padding: 10px 10px 10px 0;
   width: 668px;
 }
-#wrapperBlog #leftcolumn h1 {
-	font-size: 20px;
-}
 #leftcolumn .detalle_post {
 	width: 630px;
 }
@@ -98,7 +95,7 @@ if (is_file("../lib/general.php")) {
 		<div id="wrapperBlog">
 			<!-- Begin Left Column -->
 			<div id="leftcolumn">
-				<h1>PLATAFORMA GROUP es partner de SOLMICRO</h1>
+				<h1>Caso de éxito PB Soluciones - Banco BCI</h1>
 				<div class="detalle_post">	
 					<div class="wrap_datos">
 						<div class="postDate">
@@ -108,23 +105,32 @@ if (is_file("../lib/general.php")) {
 							<span>Novedades</span>
 						</div>	
 			  		</div>		
-					<p><img src="../images/solmicro_186px.jpg" alt="Solmicro" style="float: left; margin: 10px;" />
-					La empresa española SOLMICRO, que cuenta con el software ERP más innovador - 
-					<strong>Solmicro-eXpertis ERP</strong>, ha elegido a PLATAFORMA GROUP como partner privilegiado 
-					para su instalación en Latinoamérica. Esta asociación, nos potencia como un 
-					proveedor único de soluciones integrales de negocios, cubriendo una amplia gama 
-					de soluciones verticales ERP específicos para cada sector: Industrial, Ingenierías, 
-					Alquiler de Maquinaria, Bodegas, Construcción, Gestión de Inmuebles, Instaladoras, 
-					Servicios, Business Intelligence, Mantenimiento, RR.HH., e-Commerce,  TPV. CRM y CRM Tablet. 
-					<strong>Todo dentro de una única solución integrada</strong>. <span.vermas>Ver más</span>
-					</p>
-					<p>SOLMICRO es una empresa que en sus dos décadas de existencia ha evolucionado hasta 
-					convertirse en un proveedor de Soluciones Integrales de Negocio para todo tipo de empresas 
-					con más de 1000 soluciones instaladas en todo el mundo. 
-					</p>
-					<p>
-					<em>Para mayor información visite: <a href="http://www.solmicro.com/programas-de-gestion/erp-software-de-gestion.html" target="_blank">SOLMICRO</a>  o contáctenos a: <a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a></em>
-					</p>
+						<p><img style="float: left; margin: 10px;" alt="PB Soluciones - Banco BCI" src="../images/noticias/fotos_noticia_pb-bci.jpg" />
+						La empresa PB  Soluciones,  ha elegido a PLATAFORMA GROUP como proveedor de servicios 
+						y a ServiceTonic (representado por nuestra empresa en Chile) como plataforma de implementación, 
+						para llevar a cabo un gran proyecto para su cliente estrella: Banco BCI, consistente en hacer 
+						el seguimiento de down time (o tiempo fuera de servicio) que tienen sus cajeros automáticos 
+						a lo largo de todo Chile.
+						</p>
+						<p>Bajo el diseño, implementación y administración de nuestros consultores en Chile y el 
+						equipo de desarrollo en España, se ha implementado un plan piloto con una base de datos 
+						de más de 200 cajeros, a los cuales se les hace seguimiento desde febrero de 2012, registrando 
+						incidencias y midiendo la responsabilidad de todos los involucrados, sabiendo quien incumple y 
+						porque motivos, con los tiempos previamente pactados para reponer un cajero en línea.
+						</p>
+						<p>Este seguimiento ha permitido al banco contar con información que anteriormente desconocía, 
+						como: el origen de las fallas y quien tiene la responsabilidad en cada momento. Así mismo tener 
+						claridad respecto de que marcas/modelos de cajeros presentan mayor cantidad de incidencias y 
+						poder identificar errores causados por malos procedimientos administrativos (no carga de dinero) 
+						o bien que cajeros están presentando errores reiterados por motivos que sería fácil solucionar 
+						de forma definitiva. Esta información es vital y se traduce directamente en un ahorro significativo 
+						de recursos para el banco además de mejorar el servicio que presta a sus clientes.
+						</p>
+						<p>El siguiente paso será la implementación de una interfaz geo-referenciada 
+						(montada sobre ServiceTonic) que permitirá mostrar un mapa de chile con la ubicación 
+						exacta de los cajeros y saber cuáles están fuera de servicio, el motivo y la fecha/hora 
+						esperada de vuelta a línea, lo que se espera esté funcionando en Junio de 2013.
+						</p>
 				</div>
 			</div>
 			<!-- End Left Column -->

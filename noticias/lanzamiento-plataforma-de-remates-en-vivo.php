@@ -66,9 +66,6 @@ if (is_file("../lib/general.php")) {
   padding: 10px 10px 10px 0;
   width: 668px;
 }
-#wrapperBlog #leftcolumn h1 {
-	font-size: 20px;
-}
 #leftcolumn .detalle_post {
 	width: 630px;
 }
@@ -98,7 +95,7 @@ if (is_file("../lib/general.php")) {
 		<div id="wrapperBlog">
 			<!-- Begin Left Column -->
 			<div id="leftcolumn">
-				<h1>PLATAFORMA GROUP es partner de SOLMICRO</h1>
+				<h1>Lanzamiento Plataforma de Remates en Vivo</h1>
 				<div class="detalle_post">	
 					<div class="wrap_datos">
 						<div class="postDate">
@@ -108,23 +105,22 @@ if (is_file("../lib/general.php")) {
 							<span>Novedades</span>
 						</div>	
 			  		</div>		
-					<p><img src="../images/solmicro_186px.jpg" alt="Solmicro" style="float: left; margin: 10px;" />
-					La empresa española SOLMICRO, que cuenta con el software ERP más innovador - 
-					<strong>Solmicro-eXpertis ERP</strong>, ha elegido a PLATAFORMA GROUP como partner privilegiado 
-					para su instalación en Latinoamérica. Esta asociación, nos potencia como un 
-					proveedor único de soluciones integrales de negocios, cubriendo una amplia gama 
-					de soluciones verticales ERP específicos para cada sector: Industrial, Ingenierías, 
-					Alquiler de Maquinaria, Bodegas, Construcción, Gestión de Inmuebles, Instaladoras, 
-					Servicios, Business Intelligence, Mantenimiento, RR.HH., e-Commerce,  TPV. CRM y CRM Tablet. 
-					<strong>Todo dentro de una única solución integrada</strong>. <span.vermas>Ver más</span>
-					</p>
-					<p>SOLMICRO es una empresa que en sus dos décadas de existencia ha evolucionado hasta 
-					convertirse en un proveedor de Soluciones Integrales de Negocio para todo tipo de empresas 
-					con más de 1000 soluciones instaladas en todo el mundo. 
-					</p>
-					<p>
-					<em>Para mayor información visite: <a href="http://www.solmicro.com/programas-de-gestion/erp-software-de-gestion.html" target="_blank">SOLMICRO</a>  o contáctenos a: <a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a></em>
-					</p>
+						<p><img style="float: left; margin: 10px;" alt="Lanzamiento Plataforma de Remates en Vivo" src="../images/noticias/fotos_noticia_remates-en-vivo.jpg" />
+						Con gran orgullo ponemos a disposición del mercado nuestro moderno 
+						servicio de REMATES EN VIVO el cual permite desde un computador 
+						interactuar en cualquier parte del mundo con el Salón de Remates.
+						</p>
+						<p>REMATES EN VIVO es una robusta plataforma tecnológica y de 
+						servicios que permite que los participantes web estén escuchando lo que 
+						sucede en el Salón de Remates y contagiándose de la adrenalina del mismo, 
+						a su vez los participantes del Salón pueden ver en línea las pujas que 
+						realizan los participantes de internet.
+						</p>
+						<p>Esta poderosa herramienta permite la realización en línea de todos los 
+						tipos de remates habituales del mercado, incluyendo remates con derecho 
+						de selección de cantidad. Para mayor información contáctenos a: 
+						<a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a>
+						</p>
 				</div>
 			</div>
 			<!-- End Left Column -->
