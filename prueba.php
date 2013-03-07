@@ -1,4 +1,19 @@
-<?php
-session_start();
-echo $_SESSION["demo"]
+<?php
+
+
+
+
+
+session_start();
+
+
+
+
+
+echo $_SESSION["demo"]
+
+
+
+
+
 ?>
