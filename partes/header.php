@@ -69,7 +69,7 @@ $(document).ready(function() {
 		  $('ul#oe_menu.oe_menu > li#li_nosotros').trigger('click');
 		  e.stopPropagation();
 	  });			  
-	  $('#mn_bc_productos').click(function(e) {
+	  $('#mn_bc_productos_y_servicios').click(function(e) {
 		  $('ul#oe_menu.oe_menu > li#li_productos').trigger('click');
 		  e.stopPropagation();
 	  });		  	
@@ -216,7 +216,7 @@ inicio del menu
 										</div>
 									</div>
 								</a>
-								<a href="<?php echo $sitio; ?>/soluciones/remates-en-linea.php">									
+								<a href="<?php echo $sitio; ?>/soluciones/remates-en-vivo.php">									
 									<div class="box">
 										<div class="foto"><img src="<?php echo $sitio; ?>/images/menu/CMI_menu.jpg" alt="imagen de relleno" width="70" height="48" /></div>
 										<div class="texto">

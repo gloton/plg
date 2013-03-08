@@ -1,4 +1,7 @@
 @CHARSET "utf-8";
+#breadcrumbs span.mn_bc_item {
+	text-transform: capitalize;
+}
 #breadcrumbs {
 	height: 40px;
 }

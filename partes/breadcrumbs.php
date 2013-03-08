@@ -12,6 +12,7 @@
 	    		//setlocale(LC_ALL, "tr_TR.UTF-8");
 	    		$mn_ppal = strtr(strtolower($selected), "ÁÉÍÓÚÑ", "áéíóúñ");
 	    		$mn_ppal = explode(' ',$mn_ppal);
+	    		
 	    		foreach ($mn_ppal as $valor) {
 					if (strlen($valor) > 1) {
 						$mn_ppal_capitazado .= ucwords($valor) . " ";
@@ -19,6 +20,7 @@
 						$mn_ppal_capitazado .= $valor . " ";
 					}
 				}
+				$mn_ppal = implode("_",$mn_ppal);
 				$mn_pagina = strtr(strtolower($pagina), "ÁÉÍÓÚÑ", "áéíóúñ");			
 	    	?>
 			<ul>

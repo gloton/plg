@@ -48,7 +48,7 @@ $pagina = "CUADRO DE MANDO INTEGRAL ";
     	<?php include_once("../partes/breadcrumbs.php");?>
 		<div id="pcj">      	
 			<div class="theme1_top">
-				<img src="../images/soluciones/imad_encabezado.jpg" alt="" />
+				<img src="../images/soluciones/CMI_encabezado.jpg" alt="" />
 			</div>
 			<div class="clearfix"></div>
 			<!-- inicio pestañas			 -->

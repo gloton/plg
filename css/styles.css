@@ -397,10 +397,10 @@ div.left_col strong span {
 }
 /*footer*/
 #footer {
-    background: url("../images/linebg.png") repeat-x scroll 0 78% #F15D22;
+    background: url("../images/linebg.png") repeat-x scroll 0 215px #F15D22;
     margin: 0 auto;
     width: 950px;
-	min-height:170px;
+	height:230px;
 }
 #footer .listafooter {
     float: left;
@@ -420,21 +420,25 @@ div.left_col strong span {
 	
 }
 #footer ul.listafooter li a span {
-	color:#ffffff;	
+	color:#FFFFFF;	
 }
 #post-footer{
     margin: 0 auto;
 	height:70px;
-	color:#666666;
+	color:#F5F5F5;
 	font-size:12px;
 	font-style: italic;
+	float: left;
+	width: 500px;
 }
 #footer div#datos-footer {
-	height:26px;
-}
-#footer div#datos-footer ul {
-	width:450px;
-	float:right;
+	height: 56px;
+	left: 541px;
+	padding-left: 95px;
+	padding-top: 10px;
+	position: relative;
+	top: 1px;
+	width: 300px;
 }
 #footer div#datos-footer ul li {
     color: #FFFFFF;
@@ -452,6 +456,29 @@ div.left_col strong span {
 #footer div#datos-footer ul li a span {
 	color:#FFFFFF;
 	text-decoration:underline;
+}
+#footer ul.listafooter.menu_footer_col2 {
+	width: 200px;
+}
+#firma-kenya {
+	background-color: transparent;
+	color: #F5F5F5;
+	float: left;
+	font-family: 'Myriad Pro',Arial,Helvetica,Tahoma,sans-serif;
+	font-size: 12px;
+	height: 42px;
+	margin-left: 236px;
+	padding-top: 10px;
+	text-align: right;
+	width: 200px;
+}
+#firma-kenya a {
+	color: #5E595A;
+}
+#firma-kenya #img_logo_kenya {
+	margin-left: 6px;
+	padding-bottom: 1px;
+	vertical-align: middle;
 }
 /*pagina equipo*/
 #equipo-organigrama {
@@ -726,6 +753,7 @@ ul#lista-post .post-thumb a {
 	color: #F15D22;
 }
 .tabs-wrap dl.tabs dd span.vermas {
-	color: #010000;
+	color: #F15D22;
 	font-style: italic;
+	font-weight: bold;
 }

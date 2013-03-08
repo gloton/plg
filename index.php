@@ -37,8 +37,8 @@ dl.tabs.enabled dd.active {
 			boxCols:8,
 			boxRows:4,
 			animSpeed:800,
-			pauseTime:3000,
-			startSlide:0,
+			pauseTime:15000,
+			startSlide:<?=rand(0,3)?>,
 			captionOpacity:1,
 			directionNav:true,
 			directionNavHide:false,
@@ -90,14 +90,13 @@ $(document).ready(function(){
     <div id="contenedor-slider">
 		<div class="nivoSlider-wrap">
 			<div id="slider">
-				<img src="images/slide1.jpg" alt="Soluciones" rel="images/soluciones.png" />
-				<img src="images/slide2.jpg" alt="Creatividad" rel="images/creatividad.png"/>
-				<img src="images/slide3.jpg" alt="Calidad" rel="images/calidad.png" />
-				<img src="images/slide4.jpg" alt="Novedades" rel="images/novedades.png"/>
-				<img class="sliderNovededas" src="images/slide4.jpg" alt="Novedades" rel="images/novedades.png" />
-				<img class="sliderNovededas" src="images/slide5.jpg" alt="Novedades" rel="images/novedades.png" />
-				<img class="sliderNovededas" src="images/slide6.jpg" alt="Novedades" rel="images/novedades.png" />
-				<img class="sliderNovededas" src="images/slide7.jpg" alt="Novedades" rel="images/novedades.png" />					
+				<img src="images/home/slider/banner_solu_tatt.jpg" alt="Soluciones" rel="images/soluciones.png" />
+				<img src="images/home/slider/pb-bci.jpg" alt="Creatividad" rel="images/creatividad.png"/>
+				<img src="images/home/slider/brp-santander.jpg" alt="Calidad" rel="images/calidad.png" />
+				<img src="images/home/slider/banner_iso.jpg" class="sliderNovededas" alt="Novedades" rel="images/novedades.png" />
+				<img src="images/home/slider/novedad_solmicro.jpg" class="sliderNovededas" alt="Novedades" rel="images/novedades.png" />
+				<img src="images/home/slider/banner_innovadoras-soluciones.jpg" class="sliderNovededas" alt="Novedades" rel="images/novedades.png" />
+				<img src="images/home/slider/banner_solucione-tecnologicas.jpg" class="sliderNovededas" alt="Novedades" rel="images/novedades.png" />							
 			</div>
 		</div>
 		<iframe width="960" height="200" scrolling="no" frameborder="0" name="carrusel-home" src="slider/index.php"></iframe>
@@ -168,7 +167,7 @@ $(document).ready(function(){
 							de soluciones verticales ERP específicos para cada sector: Industrial, Ingenierías, 
 							Alquiler de Maquinaria, Bodegas, Construcción, Gestión de Inmuebles, Instaladoras, 
 							Servicios, Business Intelligence, Mantenimiento, RR.HH., e-Commerce,  TPV. CRM y CRM Tablet. 
-							<strong>Todo dentro de una única solución integrada</strong>. <a href="noticias/plataformagroup-es-partner-solmicro.php" target="_self"><span class="vermas">Ver más</span></a>
+							<strong>Todo dentro de una única solución integrada</strong>. <a href="noticias/plataformagroup-es-partner-solmicro.php" target="_self"><span class="vermas">Ver más ></span></a>
 							</p>
 							<p>
 							<em>Para mayor información visite: <a href="http://www.solmicro.com/programas-de-gestion/erp-software-de-gestion.html" target="_blank">SOLMICRO</a>  o contáctenos a: <a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a></em>
@@ -189,7 +188,7 @@ $(document).ready(function(){
 							equipo de desarrollo en España, se ha implementado un plan piloto con una base de datos 
 							de más de 200 cajeros, a los cuales se les hace seguimiento desde febrero de 2012, registrando 
 							<a href="noticias/caso-de-exito-pb-soluciones-banco-bci.php" target="_self">
-								<span class="vermas">Ver más</span>
+								<span class="vermas">Ver más ></span>
 							</a>.
 							</p>
 
@@ -210,7 +209,7 @@ $(document).ready(function(){
 							<p>Posterior a su implementación, Banco Santander continuó junto a nosotros con el servicio 
 							de mantención y
 							<a href="noticias/caso-de-exito-pb-soluciones-banco-bci.php" target="_self">
-								<span class="vermas">Ver más</span>
+								<span class="vermas">Ver más ></span>
 							</a>. 							
 							</p>
 							<span id="more-36"></span>
