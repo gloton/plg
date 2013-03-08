@@ -9,7 +9,7 @@ if (is_file("../lib/general.php")) {
 	include_once("lib/constantes.php");
 	include_once("lib/general.php");
 }
-$selected = "PRODUCTOS";
+$selected = "PRODUCTOS Y SERVICIOS";
 $pagina = "REMATES EN VIVO ";
 ?>
 <meta charset="utf-8">

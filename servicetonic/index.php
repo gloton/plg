@@ -4,7 +4,7 @@
 <?php
 include_once("../lib/constantes.php");
 include_once("../lib/general.php");
-$selected = "PRODUCTOS";
+$selected = "PRODUCTOS Y SERVICIOS";
 $pagina = "SERVICETONIC "
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

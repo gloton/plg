@@ -189,7 +189,7 @@ inicio del menu
 										<div class="texto">
 											<h4>ANB</h4>
 											<div class="descripcion">
-												<p>Plataforma activos no bancarios</p>
+												<p>Plataforma de activos no bancarios</p>
 											</div>
 										</div>
 									</div>
@@ -198,9 +198,9 @@ inicio del menu
 									<div class="box">
 										<div class="foto"><img src="<?php echo $sitio; ?>/images/menu/servicetonic_menu.jpg" alt="imagen de relleno" width="70" height="48" /></div>
 										<div class="texto">
-											<h4>Servicetonic</h4>
+											<h4>ServiceTonic</h4>
 											<div class="descripcion">
-												<p>Plataforma mesa de ayuda</p>									
+												<p>Plataforma de Mesa de Ayuda</p>									
 											</div>
 										</div>
 									</div>
@@ -211,7 +211,7 @@ inicio del menu
 										<div class="texto">
 											<h4>PCJ</h4>									
 											<div class="descripcion">
-												<p>Plataforma cobranza judicial</p>									
+												<p>Plataforma de cobranza judicial</p>									
 											</div>
 										</div>
 									</div>
@@ -222,7 +222,7 @@ inicio del menu
 										<div class="texto">
 											<h4>Remates</h4>									
 											<div class="descripcion">
-												<p>Plataforma de remates en vivo</p>									
+												<p>Remates en vivo</p>									
 											</div>
 										</div>
 									</div>
@@ -233,7 +233,7 @@ inicio del menu
 										<div class="texto">
 											<h4>Vitrina remates</h4>									
 											<div class="descripcion">
-												<p>Plataforma vitrina de remates</p>									
+												<p>Vitrina de Remates</p>									
 											</div>
 										</div>	
 									</div>
@@ -244,11 +244,22 @@ inicio del menu
 										<div class="texto">
 											<h4>IMAD</h4>									
 											<div class="descripcion">
-												<p>Gestión para exámenes medicos</p>									
+												<p>Gestión para exámenes médicos</p>									
 											</div>
 										</div>
 									</div>
-								</a>																													
+								</a>
+								<a href="<?php echo $sitio; ?>/soluciones/cuadro-de-mando-integral.php">
+									<div class="box">
+										<div class="foto"><img src="<?php echo $sitio; ?>/images/menu/CMI_menu.jpg" alt="imagen de relleno" width="70" height="48" /></div>
+										<div class="texto">
+											<h4>CMI</h4>									
+											<div class="descripcion">
+												<p>Cuadro de mando integral</p>									
+											</div>
+										</div>
+									</div>
+								</a>																																						
 							</div>
 						</div>						
 					</li>

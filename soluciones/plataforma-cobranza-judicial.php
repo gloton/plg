@@ -9,7 +9,7 @@ if (is_file("../lib/general.php")) {
 	include_once("lib/constantes.php");
 	include_once("lib/general.php");
 }
-$selected = "PRODUCTOS";
+$selected = "PRODUCTOS Y SERVICIOS";
 $pagina = "PLATAFORMA DE COBRANZA JUDICIAL ";
 ?>
 <meta charset="utf-8">

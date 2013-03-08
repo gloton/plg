@@ -1,205 +1,32 @@
 @CHARSET "utf-8";
-
-
-
-
-
 #breadcrumbs {
-
-
-
-
-
 	height: 40px;
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li {
-
-
-
-
-
 	background: url("../images/bc_arrow.gif") no-repeat scroll 100% 0 transparent;
-
-
-
-
-
 	padding: 0 10px;
-
-
-
-
-
 	float: left;
-
-
-
-
-
 	font-size: 11px;
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li#bc_first {
-
-
-
-
-
 	width: 26px;	
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li#bc_first a{
-
-
-
-
-
 	background: url("../images/bc_casa.gif") no-repeat scroll 0 0 transparent;
-
-
-
-
-
 	width: 16px;
-
-
-
-
-
 	height: 16px;
-
-
-
-
-
 	display: block;
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li#bc_first a:hover{
-
-
-
-
-
 	background: url("../images/bc_casa.gif") no-repeat scroll 0 -16px transparent;
-
-
-
-
-
 	width: 16px;
-
-
-
-
-
 	height: 16px;
-
-
-
-
-
 	display: block;
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li span.mn_ppal {
-
-
-
-
-
 	color: #1F9D48;
-
-
-
-
-
 	cursor: pointer;
-
-
-
-
-
 }
-
-
-
-
-
 #breadcrumbs ul li:hover span.mn_ppal {
-
-
-
-
-
 	color: #333333;	
-
-
-
-
-
-}
-
-
-
-
-
-#breadcrumbs ul li span.mn_bc_item {
-
-
-
-
-
-	text-transform: capitalize;
-
-
-
-
-
 }

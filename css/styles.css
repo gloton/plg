@@ -30,7 +30,7 @@ p {
 /*para colocarle check a las listas*/
 .caracteristicas > li {
   background-image: url("../images/soluciones/check.png");
-  background-position: 0 0;
+  background-position: 12px 10px;
   background-repeat: no-repeat;
   line-height: 16px;
   padding-bottom: 8px;
@@ -531,7 +531,7 @@ div.left_col strong span {
 }
 .desc-aliado {
 	float:left;
-	width:476px;
+	width:686px;
 }
 /*pagina casos de existo o testimonios*/
 #casos-exito .testimonios {
