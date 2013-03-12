@@ -28,7 +28,8 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/servicetonic.css" />
+<link type="text/css" rel="stylesheet"
+	href="<?php echo $sitio; ?>/css/servicetonic.css" />
 
 
 
@@ -46,17 +47,17 @@
 
 
 
-	<h1 id="tituvideos"><a href="index.php">&laquo; Volver</a></h1>
+	<h1 id="tituvideos">
+		<a href="index.php">&laquo; Volver</a>
+	</h1>
 
 
 
 
 
-	<embed src="https://www.box.com/embed/7qx32avih9o2ne0.swf" width="740" height="360" wmode="opaque" type="application/x-shockwave-flash" allowFullScreen="true" allowScriptAccess="always">
-
-
-
-
+	<embed src="https://www.box.com/embed/7qx32avih9o2ne0.swf" width="740"
+		height="360" wmode="opaque" type="application/x-shockwave-flash"
+		allowFullScreen="true" allowScriptAccess="always">
 
 </body>
 

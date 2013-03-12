@@ -17,22 +17,8 @@
 
 
 <?php
-
-
-
-
-
-include_once("../lib/constantes.php");
-include_once("../lib/general.php");
-
-
-
-
-
-
-
-
-
+include_once ("../lib/constantes.php");
+include_once ("../lib/general.php");
 
 ?>
 
@@ -46,7 +32,8 @@ include_once("../lib/general.php");
 
 
 
-<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/reset.css" />
+<link type="text/css" rel="stylesheet"
+	href="<?php echo $sitio; ?>/css/reset.css" />
 
 
 
@@ -59,251 +46,52 @@ include_once("../lib/general.php");
 
 
 <style type="text/css">
-
-
-
-
-
-	body {
-
-
-
-
-
-		border: 0;
-
-
-
-
-
-		padding: 0;
-
-
-
-
-
-		margin: 0;
-
-
-
-
-
-		color: #666666;
-
-
-
-
-
-		font-size: 13px;
-
-
-
-
-
-		font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-
-
-
-
-
-		line-height: 16px;
-
-
-
-
-
-	}
-
-
-
-
-
-	div.clearfix{
-
-
-
-
-
-	     width:1px;
-
-
-
-
-
-	     height:1px;
-
-
-
-
-
-	     display:block;
-
-
-
-
-
-	     clear:both;
-
-
-
-
-
-	     content: ".";
-
-
-
-
-
-	}	
-
-
-
-
-
-	.detalles-tabs {
-
-
-
-
-
-	    height: 320px;
-
-
-
-
-
-	    width: 460px;		
-
-
-
-
-
-	}
-
-
-
-
-
-	.detalles-tabs p {
-
-
-
-
-
-		padding: 4px;
-
-
-
-
-
-		padding-left: 40px;
-
-
-
-
-
-		text-align: justify;
-
-
-
-
-
-	}
-
-
-
-
-
-	.detalles-tabs ul.lst-areas {
-
-
-
-
-
-		color:#FE744A;
-
-
-
-
-
-		padding-left: 40px;
-
-
-
-
-
-		padding-bottom: 16px;
-
-
-
-
-
-		width: 420px;
-
-
-
-
-
-		font-size: 12px;
-
-
-
-
-
-	}
-
-
-
-
-
-	.detalles-tabs ul.lst-areas li {
-
-
-
-
-
-		float: left;
-
-
-
-
-
-		padding-left: 4px;
-
-
-
-
-
-		padding-right: 4px;
-
-
-
-
-
-	}	
-
-
-
-
-
-	.detalles-tabs ul.lst-areas li {
-
-
-
-
-
-		font-weight: bold;
-
-
-
-
-
-	}
-
-
-
-
-
+body {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	color: #666666;
+	font-size: 13px;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+
+div.clearfix {
+	width: 1px;
+	height: 1px;
+	display: block;
+	clear: both;
+	content: ".";
+}
+
+.detalles-tabs {
+	height: 320px;
+	width: 460px;
+}
+
+.detalles-tabs p {
+	padding: 4px;
+	padding-left: 40px;
+	text-align: justify;
+}
+
+.detalles-tabs ul.lst-areas {
+	color: #FE744A;
+	padding-left: 40px;
+	padding-bottom: 16px;
+	width: 420px;
+	font-size: 12px;
+}
+
+.detalles-tabs ul.lst-areas li {
+	float: left;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.detalles-tabs ul.lst-areas li {
+	font-weight: bold;
+}
 </style>
 
 
@@ -328,163 +116,117 @@ include_once("../lib/general.php");
 
 
 
-		<p>Debido a su alto nivel de flexibilidad, ServiceTonic puede adaptarse a 
+		<p>Debido a su alto nivel de flexibilidad, ServiceTonic puede
+			adaptarse a múltiples necesidades.</p>
 
 
 
 
 
-		múltiples necesidades.</p>
+		<p>Ud. podrá definir qué información es relevante para su servicio,
+			quienes componen su equipo de trabajo, cuales son sus roles dentro
+			del departamento y de qué forma se da cumplimiento a las incidencias
 
 
 
 
 
-		<p>	Ud. podrá definir qué información es relevante para 
+			recibidas.</p>
 
 
 
 
 
-			su servicio, quienes componen su equipo de trabajo, cuales son sus roles 
+		<p>El módulo de control de inventario lo convierte en una poderosa
 
 
 
 
 
-			dentro del departamento y de qué forma se da cumplimiento a las incidencias 
+			herramienta para el monitoreo, estimación de costo y detección de
+			fallas originadas por equipos u otro, así como para gestionar ordenes
+			de trabajo asociadas a activos Su bajo costo y facilidad de uso la
+			hacen una solución ideal para el control de actividades o incidencias
+			dentro de una PYME o de una división dentro de una gran empresa,
+			cubriendo perfectamente áreas como:</p>
 
 
 
 
 
-			recibidas.
+		<ul class="lst-areas" style="padding-left: 87px; margin-top: 4px;">
 
 
 
 
 
-		</p> 
+			<li>Gestión IT |</li>
 
 
 
 
 
-		<p>	El módulo de control de inventario lo convierte en una poderosa 
+			<li>Soporte de Clientes |</li>
 
 
 
 
 
-			herramienta para el monitoreo, estimación de costo y detección de fallas 
+			<li>Comercial |</li>
 
 
 
 
 
-			originadas por equipos u otro, así como para gestionar ordenes de trabajo asociadas 
+			<li>RRHH</li>
 
 
 
 
 
-			a activos Su bajo costo y facilidad de uso la hacen una solución ideal para el 
+		</ul>
 
 
 
 
 
-			control de actividades  o incidencias dentro de una PYME o de una división dentro de 
+		<div class="clearfix"></div>
 
 
 
 
 
-			una gran empresa, cubriendo perfectamente áreas como:
+		<ul class="lst-areas" style="padding-left: 44px">
 
 
 
 
 
-		</p>
+			<li>Logística |</li>
 
 
 
 
 
-			<ul class="lst-areas" style="padding-left: 87px;margin-top: 4px;">
+			<li>Calidad |</li>
 
 
 
 
 
-				<li>Gestión IT |</li>
+			<li>Servicios Generales |</li>
 
 
 
 
 
-				<li>Soporte de Clientes |</li>
+			<li>Administración entre otras</li>
 
 
 
 
 
-				<li>Comercial |</li>
-
-
-
-
-
-				<li>RRHH</li>
-
-
-
-
-
-			</ul>
-
-
-
-
-
-			<div class="clearfix"></div>
-
-
-
-
-
-			<ul class="lst-areas" style="padding-left: 44px">
-
-
-
-
-
-				<li>Logística |</li>
-
-
-
-
-
-				<li>Calidad |</li>
-
-
-
-
-
-				<li>Servicios Generales |</li>
-
-
-
-
-
-				<li>Administración entre otras</li>
-
-
-
-
-
-			</ul>
+		</ul>
 
 
 

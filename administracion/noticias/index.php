@@ -1,22 +1,9 @@
-<?php 
-
-
-
-
+<?php
 require '../../lib/constantes.php';
-
-
-
 
 require '../../lib/general.php';
 
-
-
-
-require '../../lib/administracion.class.php'; 
-
-
-
+require '../../lib/administracion.class.php';
 
 ?>
 
@@ -33,12 +20,12 @@ require '../../lib/administracion.class.php';
 
 
 
-<meta charset= "utf-8">
+<meta charset="utf-8">
 
 
 
 
-<title> Estructura Basica</title >
+<title>Estructura Basica</title>
 
 
 
@@ -78,7 +65,7 @@ require '../../lib/administracion.class.php';
 
 
 
-</script>        
+</script>
 
 
 
@@ -95,23 +82,9 @@ require '../../lib/administracion.class.php';
 
 <?php
 
+$objAdministracion = new administracion ();
 
-
-
-
-
-
-
-
-$objAdministracion = new administracion();
-
-
-
-
-$noticias = $objAdministracion->getPost();
-
-
-
+$noticias = $objAdministracion->getPost ();
 
 ?>
 
@@ -123,107 +96,65 @@ $noticias = $objAdministracion->getPost();
 
 
 
-  <tr>
+		<tr>
 
 
 
 
-    <th scope="col">Titulo</th>
+			<th scope="col">Titulo</th>
 
 
 
 
-    <th scope="col">Categoria</th>
+			<th scope="col">Categoria</th>
 
 
 
 
-    <th scope="col">Fecha</th>
+			<th scope="col">Fecha</th>
 
 
 
 
-    <th scope="col">ID</th>
+			<th scope="col">ID</th>
 
 
 
 
-    <th scope="col">Editar</th>
+			<th scope="col">Editar</th>
 
 
 
 
-    <th scope="col">Eliminar</th>
+			<th scope="col">Eliminar</th>
 
 
 
 
-  </tr>
+		</tr>
 
 
 
 
 <?php
 
+// var_dump($noticias);
 
-
-
-//var_dump($noticias);
-
-
-
-
-foreach($noticias as $nroFila => $contenido){
-
-
-
-
-	/* echo "<br />";
-
-
-
-
-	echo $contenido["titulo"];      */
-
-
-
-
+foreach ( $noticias as $nroFila => $contenido ) {
+	
+	/*
+	 * echo "<br />"; echo $contenido["titulo"];
+	 */
+	
 	if ($paridad == 0) {
-
-
-
-
+		
 		$paridad = 1;
-
-
-
-
 	} else {
-
-
-
-
+		
 		$paridad = 0;
-
-
-
-
 	}
-
-
-
-
 	
-
-
-
-
-	
-
-
-
-
-?>
+	?>
 
 
 
@@ -238,52 +169,37 @@ foreach($noticias as $nroFila => $contenido){
 
 
 
-    <td><?=$contenido["titulo"];?></td>
+			<td><?=$contenido["titulo"];?></td>
 
 
 
 
-    <td><?=$contenido["categoria"];?></td>
+			<td><?=$contenido["categoria"];?></td>
 
 
 
 
-    <td><?=$contenido["fecha"];?></td>
+			<td><?=$contenido["fecha"];?></td>
 
 
 
 
-    <td><?=$contenido["id_noticia"];?></td>
+			<td><?=$contenido["id_noticia"];?></td>
 
 
 
 
-    <td>elm</td>
+			<td>elm</td>
 
 
 
 
-    <td>edit</td>
+			<td>edit</td>
 
 
 
 
-  </tr>
-
-
-
-
-
-
-
-
-
-<?php 
-
-
-
-
-} 
+		</tr>
 
 
 
@@ -292,6 +208,9 @@ foreach($noticias as $nroFila => $contenido){
 
 
 
+
+<?php
+}
 
 ?>
 

@@ -3,44 +3,53 @@
 PAGINA EMPRESA
 */
 #empSoluciones {
-	background: url("../images/soluciones/box_bg.gif") repeat-x scroll 0 100% #FBFBFB;
+	background: url("../images/soluciones/box_bg.gif") repeat-x scroll 0
+		100% #FBFBFB;
 	border: 1px solid #999999;
 	min-height: 200px;
 	padding: 12px 0 12px 10px;
 	position: relative;
-	width: 560px;	
+	width: 560px;
 }
+
 #empSoluciones div#fotoSoluciones {
 	float: left;
 	width: 192px;
 }
+
 #empSoluciones div#descSoluciones {
 	float: left;
 	height: 245px;
 	width: 350px;
 }
+
 div#boxEmpresa {
-	margin-top: 34px;	
+	margin-top: 34px;
 }
-div#boxEmpresa.sc-iconbox{
+
+div#boxEmpresa.sc-iconbox {
 	height: 220px;
 	width: 530px;
 }
+
 div#boxEmpresa.sc-iconbox div#misionImg {
-  float: left;
-  height: 182px;
-  padding-top: 20px;
-  text-align: center;
-  width: 200px;
+	float: left;
+	height: 182px;
+	padding-top: 20px;
+	text-align: center;
+	width: 200px;
 }
+
 div#boxEmpresa.sc-iconbox div#misionDesc {
-  float: left;
-  height: 203px;
-  width: 330px;
+	float: left;
+	height: 203px;
+	width: 330px;
 }
+
 #fmrCurriculum input.campo {
 	font-size: 12px;
 }
+
 #fmrCurriculum input#bntExaminar.campo {
 	width: 200px;
 }

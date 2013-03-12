@@ -1,67 +1,14 @@
-body{
-
-
-
-
-
-	padding:0;
-
-
-
-
-
-	margin:0;
-
-
-
-
-
+body {
+	padding: 0;
+	margin: 0;
 }
 
-
-
-
-
-.large_thumb_shine	{
-
-
-
-
-
-    width: 50px;/*ancho imagen banner*/
-
-
-
-
-
-    height: 46px;/*alto imagen banner*/
-
-
-
-
-
-    position: relative;/*necesario para que funcione*/
-
-
-
-
-
-    left: 60px;/*necesario para que funcione*/
-
-
-
-
-
-    top: 0px;/*necesario para que funcione*/
-
-
-
-
-
-    background: url("../images/servicetonic/brillo.png") no-repeat scroll -47px 0 transparent;/*-47 porque el banner mide 511*/
-
-
-
-
-
+.large_thumb_shine {
+	width: 50px; /*ancho imagen banner*/
+	height: 46px; /*alto imagen banner*/
+	position: relative; /*necesario para que funcione*/
+	left: 60px; /*necesario para que funcione*/
+	top: 0px; /*necesario para que funcione*/
+	background: url("../images/servicetonic/brillo.png") no-repeat scroll
+		-47px 0 transparent; /*-47 porque el banner mide 511*/
 }

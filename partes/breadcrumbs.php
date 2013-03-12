@@ -26,7 +26,7 @@
 			<ul>
 				<li id="bc_first" ><a href="<?=$sitio?>"></a></li>
 				<li id="mn_bc_<?=str_replace(" ","-",$mn_ppal)?>"><span class="mn_ppal mn_bc_item"><?=$mn_ppal_capitazado?></span></li>
-				<li><span class="mn_bc_item"><?=$mn_pagina?></span></li>
+				<li id="nivel3"><span class="mn_bc_item"><?=$mn_pagina?></span></li>
 			</ul>
 			<div class="clearfix"></div>
     	</div>

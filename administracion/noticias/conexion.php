@@ -1,6 +1,6 @@
 <?php
-$con = mysql_connect('localhost','jorgew7_bdbrud1ppppppppp','prueba123');
-$bd = mysql_select_db("jorgew7_bdbrud1");
+$con = mysql_connect ( 'localhost', 'jorgew7_bdbrud1ppppppppp', 'prueba123' );
+$bd = mysql_select_db ( "jorgew7_bdbrud1" );
 /*
  * tamnien puede funcionar asi
  *

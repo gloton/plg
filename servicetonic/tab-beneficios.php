@@ -17,22 +17,8 @@
 
 
 <?php
-
-
-
-
-
-include_once("../lib/constantes.php");
-include_once("../lib/general.php");
-
-
-
-
-
-
-
-
-
+include_once ("../lib/constantes.php");
+include_once ("../lib/general.php");
 
 ?>
 
@@ -46,7 +32,8 @@ include_once("../lib/general.php");
 
 
 
-<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/reset.css" />
+<link type="text/css" rel="stylesheet"
+	href="<?php echo $sitio; ?>/css/reset.css" />
 
 
 
@@ -59,245 +46,50 @@ include_once("../lib/general.php");
 
 
 <style type="text/css">
-
-
-
-
-
-	body {
-
-
-
-
-
-		border: 0;
-
-
-
-
-
-		padding: 0;
-
-
-
-
-
-		margin: 0;
-
-
-
-
-
-		color: #666666;
-
-
-
-
-
-		font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-
-
-
-
-
-		line-height: 16px;
-
-
-
-
-
-	}
-
-
-
-
-
-	.detalles-tabs {
-
-
-
-
-
-	    height: 320px;
-
-
-
-
-
-	    width: 460px;		
-
-
-
-
-
-	}
-
-
-
-
-
-	#beneficios_left{
-
-
-
-
-
-	    float: left;
-
-
-
-
-
-	    height: 310px;
-
-
-
-
-
-	    padding-left: 35px;
-
-
-
-
-
-	    padding-top: 10px;
-
-
-
-
-
-		padding-right:5px;
-
-
-
-
-
-	    width: 220px;
-
-
-
-
-
-	}
-
-
-
-
-
-	#beneficios_left li,
-
-
-
-
-
-	#beneficios_right li {
-
-
-
-
-
-	    background-image: url("../images/tabs-vertical-slider/bullet-orangepng-6px.png");
-
-
-
-
-
-	    background-position: 5px 4px;
-
-
-
-
-
-	    background-repeat: no-repeat;
-
-
-
-
-
-	    font-size: 13px;
-
-
-
-
-
-	    margin-bottom: 14px;
-
-
-
-
-
-	    padding-left: 14px;
-
-
-
-
-
-	}
-
-
-
-
-
-	#beneficios_right {
-
-
-
-
-
-	    float: left;
-
-
-
-
-
-	    height: 310px;
-
-
-
-
-
-	    padding-top: 10px;
-
-
-
-
-
-	    width: 200px;	
-
-
-
-
-
-	}
-
-
-
-
-
-	div.detalles-tabs li p span {
-
-
-
-
-
-		color: #666666;
-
-
-
-
-
-		font-size: 12px;
-
-
-
-
-
-	}
-
-
-
-
-
+body {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	color: #666666;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 16px;
+}
+
+.detalles-tabs {
+	height: 320px;
+	width: 460px;
+}
+
+#beneficios_left {
+	float: left;
+	height: 310px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-right: 5px;
+	width: 220px;
+}
+
+#beneficios_left li,#beneficios_right li {
+	background-image:
+		url("../images/tabs-vertical-slider/bullet-orangepng-6px.png");
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	font-size: 13px;
+	margin-bottom: 14px;
+	padding-left: 14px;
+}
+
+#beneficios_right {
+	float: left;
+	height: 310px;
+	padding-top: 10px;
+	width: 200px;
+}
+
+div.detalles-tabs li p span {
+	color: #666666;
+	font-size: 12px;
+}
 </style>
 
 
@@ -340,7 +132,10 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>GESTIÓN</span> de múltiples servicios en una única herramienta</p>
+					<p>
+						<span>GESTIÓN</span> de múltiples servicios en una única
+						herramienta
+					</p>
 
 
 
@@ -358,7 +153,10 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>RÁPIDA</span> puesta en marcha, en cuestión de días o incluso horas</p>
+					<p>
+						<span>RÁPIDA</span> puesta en marcha, en cuestión de días o
+						incluso horas
+					</p>
 
 
 
@@ -376,7 +174,9 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>100% Adaptable</span> a las necesidades de su negocio</p>
+					<p>
+						<span>100% Adaptable</span> a las necesidades de su negocio
+					</p>
 
 
 
@@ -394,7 +194,9 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>PLENA INTEGRACIÓN</span> con el correo electrónico</p>
+					<p>
+						<span>PLENA INTEGRACIÓN</span> con el correo electrónico
+					</p>
 
 
 
@@ -412,7 +214,10 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>ALTA CALIDAD</span> de atención a sus clientes administrando acuerdos de niveles de servicio (SLA)</p>
+					<p>
+						<span>ALTA CALIDAD</span> de atención a sus clientes administrando
+						acuerdos de niveles de servicio (SLA)
+					</p>
 
 
 
@@ -424,7 +229,7 @@ include_once("../lib/general.php");
 
 
 
-			</ul>			
+			</ul>
 
 
 
@@ -454,7 +259,10 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>ACCESO</span> inmediato gracias a su arquitectura 100% basada en web</p>
+					<p>
+						<span>ACCESO</span> inmediato gracias a su arquitectura 100%
+						basada en web
+					</p>
 
 
 
@@ -472,7 +280,9 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>REDUCCIÓN</span> de costes operacionales</p>
+					<p>
+						<span>REDUCCIÓN</span> de costes operacionales
+					</p>
 
 
 
@@ -490,7 +300,9 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>COMERCIALIZACIÓN A SU MEDIDA</span> Licencia o SAAS</p>
+					<p>
+						<span>COMERCIALIZACIÓN A SU MEDIDA</span> Licencia o SAAS
+					</p>
 
 
 
@@ -508,7 +320,10 @@ include_once("../lib/general.php");
 
 
 
-					<p><span>MODULO DE GESTIÓN DE ACTIVOS Y CONTROL DE STOCK (CMBD)</span> integrado a la gestión de incidencias</p>
+					<p>
+						<span>MODULO DE GESTIÓN DE ACTIVOS Y CONTROL DE STOCK (CMBD)</span>
+						integrado a la gestión de incidencias
+					</p>
 
 
 
@@ -520,7 +335,7 @@ include_once("../lib/general.php");
 
 
 
-			</ul>			
+			</ul>
 
 
 

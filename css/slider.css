@@ -1,1724 +1,338 @@
 .slider-wrap {
-
-
-
-
-
 	padding-top: 0;
+}
 
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-.slider-wrap .loader { 
-
-
-
-
-
-	width:970px;
-
-
-
-
-
+.slider-wrap .loader {
+	width: 970px;
 	margin: 0 auto;
-
-
-
-
-
-	height:19px;
-
-
-
-
-
-	background:url(../images/ajax-loader.gif) no-repeat 50% 0;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-.nivoSlider-wrap,
-
-
-
-
-
-.cycleslider-wrap { 
-
-
-
-
-
-	display:none;
-
-
-
-
-
-	padding: 0; 
-
-
-
-
-
-	background:#FFF;
-
-
-
-
-
-	height:271px;
-
-
-
-
-
-	} 
-
-
-
-
-
-
-
-
-
-
-
-.lite-accordion-wrap,
-
-
-
-
-
-.slides-js-wrap {
-
-
-
-
-
-	display:none;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+	height: 19px;
+	background: url(../images/ajax-loader.gif) no-repeat 50% 0;
+}
+
+.nivoSlider-wrap,.cycleslider-wrap {
+	display: none;
+	padding: 0;
+	background: #FFF;
+	height: 271px;
+}
+
+.lite-accordion-wrap,.slides-js-wrap {
+	display: none;
+}
 
 /*Nivo Slider*/
-
-
-
-
-
 .nivoSlider {
-
-
-
-
-
-    position: relative;
-
-
-
-
-
+	position: relative;
 }
-
-
-
-
 
 .nivoSlider img {
-
-
-
-
-
-    display: none;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
+	display: none;
+	position: absolute;
 }
-
-
-
-
 
 .nivo-slice {
-
-
-
-
-
-    display: block;
-
-
-
-
-
-    height: 100%;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
-    z-index: 5;
-
-
-
-
-
+	display: block;
+	height: 100%;
+	position: absolute;
+	z-index: 5;
 	width: 970px;
-
-
-
-
-
-	}
-
-
-
-
+}
 
 .nivo-box {
-
-
-
-
-
-    display: block;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
-    z-index: 5;
-
-
-
-
-
+	display: block;
+	position: absolute;
+	z-index: 5;
 }
-
-
-
-
 
 .nivoSlider a.nivo-imageLink {
-
-
-
-
-
-    border: 0 none;
-
-
-
-
-
-    display: none;
-
-
-
-
-
-    height: 100%;
-
-
-
-
-
-    left: 0;
-
-
-
-
-
-    margin: 0;
-
-
-
-
-
-    padding: 0;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
-    top: 0;
-
-
-
-
-
-    width: 100%;
-
-
-
-
-
-    z-index: 6;
-
-
-
-
-
+	border: 0 none;
+	display: none;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 6;
 }
-
-
-
-
 
 .nivo-html-caption {
-
-
-
-
-
-    display: none;
-
-
-
-
-
+	display: none;
 }
-
-
-
-
 
 .nivo-caption {
-
-
-
-
-
-    background: url("../images/space.png") repeat scroll 0 0 transparent;
-
-
-
-
-
-    bottom: 80px;
-
-
-
-
-
-    left: 0;
-
-
-
-
-
-    padding: 10px 20px 5px;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
-    z-index: 8;
-
-
-
-
-
+	background: url("../images/space.png") repeat scroll 0 0 transparent;
+	bottom: 80px;
+	left: 0;
+	padding: 10px 20px 5px;
+	position: absolute;
+	z-index: 8;
 }
-
-
-
-
 
 .nivo-caption h3 {
-
-
-
-
-
-    color: #FFFFFF;
-
-
-
-
-
-    font-size: 18px;
-
-
-
-
-
-    font-weight: normal;
-
-
-
-
-
-    margin: 0 0 5px;
-
-
-
-
-
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 5px;
 }
-
-
-
-
 
 .nivo-caption .text {
-
-
-
-
-
-    color: #FFFFFF;
-
-
-
-
-
+	color: #FFFFFF;
 }
-
-
-
-
 
 .controlnav-thumbs .nivo-controlNav {
-
-
-
-
-
-    margin-bottom: -82px;
-
-
-
-
-
-    margin: 254px 0 0;
-
-
-
-
-
-    padding: 17px 0;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
+	margin-bottom: -82px;
+	margin: 254px 0 0;
+	padding: 17px 0;
+	position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
 
 .controlnav-thumbs .nivo-controlNav a {
-
-
-
-
-
-    background: url("../images/nivo-thumb-bg.png") no-repeat scroll 0 0 transparent;
-
-
-
-
-
-    cursor: pointer;
-
-
-
-
-
-    display: block;
-
-
-
-
-
-    float: left;
-
-
-
-
-
-    padding: 0;
-
-
-
-
-
-    position: relative;
-
-
-
-
-
-    z-index: 9;
-
-
-
-
-
+	background: url("../images/nivo-thumb-bg.png") no-repeat scroll 0 0
+		transparent;
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0;
+	position: relative;
+	z-index: 9;
 }
-
-
-
-
 
 .controlnav-thumbs .nivo-controlNav a.active {
-
-
-
-
-
-    background-position: 0 100%;
-
-
-
-
-
+	background-position: 0 100%;
 }
-
-
-
-
 
 .controlnav-thumbs .nivo-controlNav img {
-
-
-
-
-
-    display: inline;
-
-
-
-
-
-    height: 78px;
-
-
-
-
-
-    margin: 0 auto;
-
-
-
-
-
-    position: relative;
-
-
-
-
-
-    text-align: center;
-
-
-
-
-
-    width: 240px;
-
-
-
-
-
+	display: inline;
+	height: 78px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 240px;
 }
-
-
-
-
 
 .nivo-directionNav a {
-
-
-
-
-
-    background-repeat: no-repeat;
-
-
-
-
-
-    bottom: -35px;
-
-
-
-
-
-    cursor: pointer;
-
-
-
-
-
-    height: 32px;
-
-
-
-
-
-    position: absolute;
-
-
-
-
-
-    text-indent: -999em;
-
-
-
-
-
-    width: 18px;
-
-
-
-
-
-    z-index: 5;
-
-
-
-
-
+	background-repeat: no-repeat;
+	bottom: -35px;
+	cursor: pointer;
+	height: 32px;
+	position: absolute;
+	text-indent: -999em;
+	width: 18px;
+	z-index: 5;
 }
-
-
-
-
 
 .nivo-prevNav {
-
-
-
-
-
-    background-position: 0 -49px;
-
-
-
-
-
-    right: 313px;
-
-
-
-
-
+	background-position: 0 -49px;
+	right: 313px;
 }
-
-
-
-
 
 .nivo-prevNav:hover {
-
-
-
-
-
-    background-position: 0 0;
-
-
-
-
-
+	background-position: 0 0;
 }
-
-
-
-
 
 .nivo-nextNav {
-
-
-
-
-
-    background-position: 100% -49px;
-
-
-
-
-
-    right: 33px;
-
-
-
-
-
+	background-position: 100% -49px;
+	right: 33px;
 }
-
-
-
-
 
 .nivo-nextNav:hover {
-
-
-
-
-
-    background-position: 100% 0;
-
-
-
-
-
+	background-position: 100% 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Cycle Slider*/
-
-
-
-
-
 .cycleslider-wrap {
-
-
-
-
-
 	position: relative;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 /* Direction nav styles (e.g. Next & Prev) */
-
-
-
-
-
-#cycle-prev,
-
-
-
-
-
-#cycle-next {
-
-
-
-
-
-	position:absolute;
-
-
-
-
-
-	top:45%;
-
-
-
-
-
-	z-index:9;
-
-
-
-
-
-	cursor:pointer;
-
-
-
-
-
+#cycle-prev,#cycle-next {
+	position: absolute;
+	top: 45%;
+	z-index: 9;
+	cursor: pointer;
 	width: 34px;
-
-
-
-
-
 	height: 57px;
-
-
-
-
-
 	text-indent: -999em;
-
-
-
-
-
 	margin-top: -10px;
-
-
-
-
-
 	background-image: url(../images/cycle-btn.png);
-
-
-
-
-
 	background-repeat: no-repeat;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-prev {
-
-
-
-
-
-	left:-50px;
-
-
-
-
-
+	left: -50px;
 	background-position: 0 0;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-prev:hover {
-
-
-
-
-
 	background-position: 0 100%;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-next {
-
-
-
-
-
-	right:-50px;
-
-
-
-
-
+	right: -50px;
 	background-position: 100% 0;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-next:hover {
-
-
-
-
-
 	background-position: 100% 100%;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-nav {
-
-
-
-
-
-	position:absolute;
-
-
-
-
-
+	position: absolute;
 	right: 30px;
-
-
-
-
-
 	bottom: -24px;
-
-
-
-
-
-	z-index:99;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+	z-index: 99;
+}
 
 #cycle-nav a {
-
-
-
-
-
-	position:relative;
-
-
-
-
-
-	z-index:9;
-
-
-
-
-
-	cursor:pointer;
-
-
-
-
-
-	display:block;
-
-
-
-
-
-	float:left;
-
-
-
-
-
-	width:46px;
-
-
-
-
-
-	height:24px;
-
-
-
-
-
+	position: relative;
+	z-index: 9;
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 46px;
+	height: 24px;
 	text-align: center;
-
-
-
-
-
 	font-size: 10px;
-
-
-
-
-
 	margin-left: 1px;
-
-
-
-
-
 	color: #999;
-
-
-
-
-
 	background: url(../images/cycle-num-btn.png) no-repeat 0 100%;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 #cycle-nav a.activeSlide {
-
-
-
-
-
 	color: #333;
-
-
-
-
-
 	background-position: 0 0;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 .cycle-slider-caption {
-
-
-
-
-
 	position: absolute;
-
-
-
-
-
 	left: 0px;
-
-
-
-
-
 	bottom: 80px;
-
-
-
-
-
 	z-index: 8;
-
-
-
-
-
 	background: url(../images/space.png);
-
-
-
-
-
 	padding: 15px 20px;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+}
 
 .cycle-slider-caption h3 {
-
-
-
-
-
 	margin: 0;
-
-
-
-
-
 	font-weight: normal;
-
-
-
-
-
 	font-size: 18px;
-
-
-
-
-
 	color: #FFF;
-
-
-
-
-
-	margin-bottom: 5px; 
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
+	margin-bottom: 5px;
+}
 
 .cycle-slider-caption .text {
-
-
-
-
-
 	color: #FFF;
-
-
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /*Lite accordion*/
+.lite-accordion-slider {
+	text-align: left;
+}
 
+.lite-accordion-slider>ol {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
 
-
-
-
-.lite-accordion-slider { text-align: left; }
-
-
-
-
-
-.lite-accordion-slider > ol { position: relative; overflow: hidden; height: 100%; }
-
-
-
-
-
-.lite-accordion-slider .slide > h2 { 
-
-
-
-
-
+.lite-accordion-slider .slide>h2 {
 	color: black;
-
-
-
-
-
-    font-size: 16px;	 
-
-
-
-
-
+	font-size: 16px;
 	font-weight: normal;
-
-
-
-
-
-	margin: 0; 
-
-
-
-
-
-	z-index: 30; 
-
-
-
-
-
-	position: absolute; 
-
-
-
-
-
-	top: 0; 
-
-
-
-
-
-	left: 0; 
-
-
-
-
-
-	-webkit-transform: translateX(-100%) rotate(-90deg); 
-
-
-
-
-
-	-webkit-transform-origin: right top; 
-
-
-
-
-
+	margin: 0;
+	z-index: 30;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translateX(-100%) rotate(-90deg);
+	-webkit-transform-origin: right top;
 	-moz-transform: translateX(-100%) rotate(-90deg);
-
-
-
-
-
-	-moz-transform-origin: right top; 
-
-
-
-
-
-	-o-transform: translateX(-100%) rotate(-90deg); 
-
-
-
-
-
-	-o-transform-origin: right top; 
-
-
-
-
-
-	transform: translateX(-100%) rotate(-90deg); 
-
-
-
-
-
+	-moz-transform-origin: right top;
+	-o-transform: translateX(-100%) rotate(-90deg);
+	-o-transform-origin: right top;
+	transform: translateX(-100%) rotate(-90deg);
 	transform-origin: right top;
-
-
-
-
-
 	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-
-
-
-
-
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
-
-
-
-
-
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3 );
 }
 
-
-
-
-
-.lite-accordion-slider .slide > h2 span { 
-
-
-
-
-
-    display: block; 
-
-
-
-
-
-    padding-right: 8%; 
-
-
-
-
-
-    text-align: right; 
-
-
-
-
-
-    height: 90%;
-
-
-
-
-
-    margin-top: 2px; 
-
-
-
-
-
-    -moz-user-select: none;
-
-
-
-
-
-    -khtml-user-select: none;
-
-
-
-
-
-    user-select: none;
-
-
-
-
-
+.lite-accordion-slider .slide>h2 span {
+	display: block;
+	padding-right: 8%;
+	text-align: right;
+	height: 90%;
+	margin-top: 2px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
 }
 
+.lite-accordion-slider .slide>h2:hover {
+	cursor: pointer;
+}
 
+.lite-accordion-slider .slide>div {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	overflow: hidden;
+}
 
+.lite-accordion-slider figcaption {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	z-index: 8;
+	background: url(../images/space.png);
+	padding: 15px 20px;
+}
 
+.lite-accordion-slider figcaption h3 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 18px;
+	color: #FFF;
+	margin-bottom: 5px;
+}
 
+.lite-accordion-slider figcaption .text {
+	color: #FFF;
+}
 
-
-
-
-
-
-.lite-accordion-slider .slide > h2:hover { cursor: pointer; }
-
-
-
-
-
-.lite-accordion-slider .slide > div { height: 100%; position: absolute; top: 0; z-index: 10; overflow: hidden; }
-
-
-
-
-
-
-
-
-
-
-
-.lite-accordion-slider figcaption { position: absolute; bottom: 30px; right: 30px; z-index: 8; background: url(../images/space.png); padding: 15px 20px; }
-
-
-
-
-
-.lite-accordion-slider figcaption h3 {margin: 0; font-weight: normal; font-size: 18px; color: #FFF; margin-bottom: 5px; }
-
-
-
-
-
-.lite-accordion-slider figcaption .text { color: #FFF; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.light { 
-
-
-
-
-
-    padding: 11px 10px 10px 13px;
-
-
-
-
-
+.light {
+	padding: 11px 10px 10px 13px;
 	background: url(../images/lite-accordion-bg.png) no-repeat;
-
-
-
-
-
 }
 
-
-
-
-
-.light .slide > h2 { background: url(../images/lite-ac-btn.png) no-repeat 0 0; line-height: 265% }
-
-
-
-
-
-.light .slide > h2 span { 
-
-
-
-
-
-    color: #909090;
-
-
-
-
-
+.light .slide>h2 {
+	background: url(../images/lite-ac-btn.png) no-repeat 0 0;
+	line-height: 265%
 }
 
-
-
-
-
-
-
-
-
-
-
-.light .slide > h2.selected, 
-
-
-
-
-
-.light .slide h2:hover {
-
-
-
-
-
-	background: url(../images/lite-ac-btn-hover.png) no-repeat 0 0; 
-
-
-
-
-
+.light .slide>h2 span {
+	color: #909090;
 }
 
+.light .slide>h2.selected,.light .slide h2:hover {
+	background: url(../images/lite-ac-btn-hover.png) no-repeat 0 0;
+}
 
-
-
-
-
-
-
-
-
-
-.light .slide > h2.selected span, 
-
-
-
-
-
-.light .slide h2.selected span:hover {
-
-
-
-
-
+.light .slide>h2.selected span,.light .slide h2.selected span:hover {
 	color: #333;
-
-
-
-
-
 }
 
+.light .slide>div {
+	background: #D1D1D1;
+}
 
-
-
-
-
-
-
-
-
-
-.light .slide > div { background: #D1D1D1; }
-
-
-
-
-
-
-
-
-
-
-
-.ie9 .slide > h2 { filter: none; -ms-transform: translateX(-100%) rotate(-90deg); -ms-transform-origin: right top; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ie9 .slide>h2 {
+	filter: none;
+	-ms-transform: translateX(-100%) rotate(-90deg);
+	-ms-transform-origin: right top;
+}
 
 /*
 
@@ -1733,40 +347,10 @@
 
 
 */
-
-
-
-
-
 #slides {
-
-
-
-
-
-	position:relative; 
-
-
-
-
-
+	position: relative;
 	padding: 30px 0 30px;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 /*
 
@@ -1781,202 +365,35 @@
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-#slides .next,
-
-
-
-
-
-#slides .prev {
-
-
-
-
-
-	position:absolute;
-
-
-
-
-
-	top:45%;
-
-
-
-
-
-	display:block;
-
-
-
-
-
+#slides .next,#slides .prev {
+	position: absolute;
+	top: 45%;
+	display: block;
 	z-index: 10;
-
-
-
-
-
 	width: 17px;
-
-
-
-
-
 	height: 29px;
-
-
-
-
-
 	background-image: url(../images/slides-js-nav.png);
-
-
-
-
-
 	background-repeat: no-repeat;
-
-
-
-
-
 	text-indent: -999em;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .next {
-
-
-
-
-
 	right: -60px;
-
-
-
-
-
 	background-position: 100% 0;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .next:hover {
-
-
-
-
-
 	background-position: 100% 100%;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .prev {
-
-
-
-
-
 	left: -60px;
-
-
-
-
-
 	background-position: 0 0;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .prev:hover {
-
-
-
-
-
 	background-position: 0 100%;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 /*
 
@@ -1991,184 +408,33 @@
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
 #slides .pagination {
-
-
-
-
-
 	position: absolute;
-
-
-
-
-
 	left: 45%;
-
-
-
-
-
 	bottom: -20px;
-
-
-
-
-
 	margin-left: -10px;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .pagination li {
-
-
-
-
-
-	float:left;
-
-
-
-
-
-	list-style:none;
-
-
-
-
-
+	float: left;
+	list-style: none;
 	margin: 0 3px;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .pagination li a {
-
-
-
-
-
 	display: block;
-
-
-
-
-
 	width: 11px;
-
-
-
-
-
 	height: 12px;
-
-
-
-
-
 	padding: 0;
-
-
-
-
-
 	margin: 0;
-
-
-
-
-
 	border: none;
-
-
-
-
-
 	text-indent: -999em;
-
-
-
-
-
 	background: url(../images/slides-js-btn.png) 0 0 no-repeat;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 #slides .pagination li.current a {
-
-
-
-
-
 	background-position: 100% 0;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 /*
 
@@ -2183,98 +449,14 @@
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
 #slides .caption {
-
-
-
-
-
-	z-index:500;
-
-
-
-
-
-	position:absolute;
-
-
-
-
-
+	z-index: 500;
+	position: absolute;
 	top: 80px;
-
-
-
-
-
-	left: 550px; 
-
-
-
-
-
+	left: 550px;
 	width: 400px;
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-#slides .caption h3 { 
-
-
-
-
-
+#slides .caption h3 {
 	font-size: 24px;
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

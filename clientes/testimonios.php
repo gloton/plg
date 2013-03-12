@@ -14,31 +14,14 @@
 
 
 <?php
+include_once ("../lib/constantes.php");
 
-
-
-
-include_once("../lib/constantes.php");
-
-
-
-
-include_once("../lib/general.php");
-
-
-
+include_once ("../lib/general.php");
 
 $selected = "CLIENTES";
 
+$pagina = "CASOS DE ÉXITO "?>
 
-
-
-$pagina = "CASOS DE ÉXITO "
-
-
-
-
-?>
 
 
 
@@ -58,7 +41,8 @@ $pagina = "CASOS DE ÉXITO "
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 
 
@@ -83,7 +67,7 @@ $pagina = "CASOS DE ÉXITO "
 
 
 
-<div id="wrap">
+	<div id="wrap">
 
 
 
@@ -103,767 +87,537 @@ $pagina = "CASOS DE ÉXITO "
 
 
 
-        <div id="casos-exito">  
+        <div id="casos-exito">
 
 
 
 
-            <div class="testimonios">
+				<div class="testimonios">
 
 
 
 
-                <div class="articulo">
+					<div class="articulo">
 
 
 
 
-                	<h3>Plataforma de gestión de Activos no bancarios</h3>
+						<h3>Plataforma de gestión de Activos no bancarios</h3>
 
 
 
 
-                    <p>
+						<p>El año 2003, Plataformagroup empieza a trabajar en un gran
 
 
 
 
-                    El año 2003, Plataformagroup empieza a trabajar en un gran 
+							proyecto para Banco Santander, el cual utiliza todo el Know how
+							en el área de remates para construir una plataforma de gestión de
+							la venta de propiedades re-poseidas por el banco. El proyecto
+							tiene tal nivel de éxito que es implementado también en los
+							bancos BCI y CHILE ofreciendo una herramienta de gestión y
+							control que ha incrementado la eficiencia del proceso de venta de
+							bienes reposeidos y significado un importante ahorro en los
 
 
 
 
-                    proyecto para Banco Santander, el cual utiliza todo el Know 
+							costos operacionales de esa área de negocio.</p>
 
 
 
 
-                    how en el área de remates para construir una plataforma de 
+					</div>
 
 
 
 
-                    gestión de la venta de propiedades re-poseidas por el banco. 
+					<div class="person-testimonio">
 
 
 
 
-                    El proyecto tiene tal nivel de éxito que es implementado también 
+						<div class="avatar"></div>
 
 
 
 
-                    en los bancos BCI y CHILE ofreciendo una herramienta de gestión 
+						<div class="txt-testimonio">
 
 
 
 
-                    y control que ha incrementado la eficiencia del proceso de venta 
+							<h5>Perfect!</h5>
 
 
 
 
-                    de bienes reposeidos y significado un importante ahorro en los 
+							<p>Grumpy wizards make toxic brew for the evil Queen and Jack.
+								One morning, when Gregor Samsa woke from troubled dreams, he
+								found himself transformed in his bed into a horrible vermin.</p>
 
 
 
 
-                    costos operacionales de esa área de negocio.
+							<h6>Christopher</h6>
 
 
 
 
-                    </p>
+							<p>
+								<span class="desc">Designer</span>
 
 
 
 
-                </div>
+							</p>
 
 
 
 
-                <div class="person-testimonio">
+							<div class="arrow"></div>
 
 
 
 
-                	<div class="avatar">
+						</div>
 
 
 
 
-                    </div>
+					</div>
 
 
 
 
-                    <div class="txt-testimonio">							
+				</div>
 
 
 
 
-						<h5>Perfect!</h5>
+				<div class="testimonios sc-hr">
 
 
 
 
-						<p>
+					<div class="articulo">
 
 
 
 
-						Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+						<h3>Plataforma de gestión de Activos no bancarios</h3>
 
 
 
 
-						</p>
+						<p>El año 2003, Plataformagroup empieza a trabajar en un gran
 
 
 
 
-						<h6>Christopher</h6>
+							proyecto para Banco Santander, el cual utiliza todo el Know how
+							en el área de remates para construir una plataforma de gestión de
+							la venta de propiedades re-poseidas por el banco. El proyecto
+							tiene tal nivel de éxito que es implementado también en los
+							bancos BCI y CHILE ofreciendo una herramienta de gestión y
+							control que ha incrementado la eficiencia del proceso de venta de
+							bienes reposeidos y significado un importante ahorro en los
 
 
 
 
-						<p><span class="desc">Designer</span>
+							costos operacionales de esa área de negocio.</p>
 
 
 
 
-						</p>
+					</div>
 
 
 
 
-						<div class="arrow"></div>                   
+					<div class="person-testimonio">
 
 
 
 
-                    </div>
+						<div class="avatar"></div>
 
 
 
 
-                </div>
+						<div class="txt-testimonio">
 
 
 
 
-            </div>
+							<h5>Perfect!</h5>
 
 
 
 
-            <div class="testimonios sc-hr">
+							<p>Grumpy wizards make toxic brew for the evil Queen and Jack.
+								One morning, when Gregor Samsa woke from troubled dreams, he
+								found himself transformed in his bed into a horrible vermin.</p>
 
 
 
 
-                <div class="articulo">
+							<h6>Christopher</h6>
 
 
 
 
-                	<h3>Plataforma de gestión de Activos no bancarios</h3>
+							<p>
+								<span class="desc">Designer</span>
 
 
 
 
-                    <p>
+							</p>
 
 
 
 
-                    El año 2003, Plataformagroup empieza a trabajar en un gran 
+							<div class="arrow"></div>
 
 
 
 
-                    proyecto para Banco Santander, el cual utiliza todo el Know 
+						</div>
 
 
 
 
-                    how en el área de remates para construir una plataforma de 
+					</div>
 
 
 
 
-                    gestión de la venta de propiedades re-poseidas por el banco. 
+				</div>
 
 
 
 
-                    El proyecto tiene tal nivel de éxito que es implementado también 
+				<div class="testimonios sc-hr">
 
 
 
 
-                    en los bancos BCI y CHILE ofreciendo una herramienta de gestión 
+					<div class="articulo">
 
 
 
 
-                    y control que ha incrementado la eficiencia del proceso de venta 
+						<h3>Plataforma de gestión de Activos no bancarios</h3>
 
 
 
 
-                    de bienes reposeidos y significado un importante ahorro en los 
+						<p>El año 2003, Plataformagroup empieza a trabajar en un gran
 
 
 
 
-                    costos operacionales de esa área de negocio.
+							proyecto para Banco Santander, el cual utiliza todo el Know how
+							en el área de remates para construir una plataforma de gestión de
+							la venta de propiedades re-poseidas por el banco. El proyecto
+							tiene tal nivel de éxito que es implementado también en los
+							bancos BCI y CHILE ofreciendo una herramienta de gestión y
+							control que ha incrementado la eficiencia del proceso de venta de
+							bienes reposeidos y significado un importante ahorro en los
 
 
 
 
-                    </p>
+							costos operacionales de esa área de negocio.</p>
 
 
 
 
-                </div>
+					</div>
 
 
 
 
-                <div class="person-testimonio">
+					<div class="person-testimonio">
 
 
 
 
-                	<div class="avatar">
+						<div class="avatar"></div>
 
 
 
 
-                    </div>
+						<div class="txt-testimonio">
 
 
 
 
-                    <div class="txt-testimonio">							
+							<h5>Perfect!</h5>
 
 
 
 
-						<h5>Perfect!</h5>
+							<p>Grumpy wizards make toxic brew for the evil Queen and Jack.
+								One morning, when Gregor Samsa woke from troubled dreams, he
+								found himself transformed in his bed into a horrible vermin.</p>
 
 
 
 
-						<p>
+							<h6>Christopher</h6>
 
 
 
 
-						Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+							<p>
+								<span class="desc">Designer</span>
 
 
 
 
-						</p>
+							</p>
 
 
 
 
-						<h6>Christopher</h6>
+							<div class="arrow"></div>
 
 
 
 
-						<p><span class="desc">Designer</span>
+						</div>
 
 
 
 
-						</p>
+					</div>
 
 
 
 
-						<div class="arrow"></div>                   
+				</div>
 
 
 
 
-                    </div>
+				<div class="testimonios sc-hr">
 
 
 
 
-                </div>
+					<div class="articulo">
 
 
 
 
-            </div>
+						<h3>Plataforma de gestión de Activos no bancarios</h3>
 
 
 
 
-            <div class="testimonios sc-hr">
+						<p>El año 2003, Plataformagroup empieza a trabajar en un gran
 
 
 
 
-                <div class="articulo">
+							proyecto para Banco Santander, el cual utiliza todo el Know how
+							en el área de remates para construir una plataforma de gestión de
+							la venta de propiedades re-poseidas por el banco. El proyecto
+							tiene tal nivel de éxito que es implementado también en los
+							bancos BCI y CHILE ofreciendo una herramienta de gestión y
+							control que ha incrementado la eficiencia del proceso de venta de
+							bienes reposeidos y significado un importante ahorro en los
 
 
 
 
-                	<h3>Plataforma de gestión de Activos no bancarios</h3>
+							costos operacionales de esa área de negocio.</p>
 
 
 
 
-                    <p>
+					</div>
 
 
 
 
-                    El año 2003, Plataformagroup empieza a trabajar en un gran 
+					<div class="person-testimonio">
 
 
 
 
-                    proyecto para Banco Santander, el cual utiliza todo el Know 
+						<div class="avatar"></div>
 
 
 
 
-                    how en el área de remates para construir una plataforma de 
+						<div class="txt-testimonio">
 
 
 
 
-                    gestión de la venta de propiedades re-poseidas por el banco. 
+							<h5>Perfect!</h5>
 
 
 
 
-                    El proyecto tiene tal nivel de éxito que es implementado también 
+							<p>Grumpy wizards make toxic brew for the evil Queen and Jack.
+								One morning, when Gregor Samsa woke from troubled dreams, he
+								found himself transformed in his bed into a horrible vermin.</p>
 
 
 
 
-                    en los bancos BCI y CHILE ofreciendo una herramienta de gestión 
+							<h6>Christopher</h6>
 
 
 
 
-                    y control que ha incrementado la eficiencia del proceso de venta 
+							<p>
+								<span class="desc">Designer</span>
 
 
 
 
-                    de bienes reposeidos y significado un importante ahorro en los 
+							</p>
 
 
 
 
-                    costos operacionales de esa área de negocio.
+							<div class="arrow"></div>
 
 
 
 
-                    </p>
+						</div>
 
 
 
 
-                </div>
+					</div>
 
 
 
 
-                <div class="person-testimonio">
+				</div>
 
 
 
 
-                	<div class="avatar">
+				<div class="testimonios sc-hr">
 
 
 
 
-                    </div>
+					<div class="articulo">
 
 
 
 
-                    <div class="txt-testimonio">							
+						<h3>Plataforma de gestión de Activos no bancarios</h3>
 
 
 
 
-						<h5>Perfect!</h5>
+						<p>El año 2003, Plataformagroup empieza a trabajar en un gran
 
 
 
 
-						<p>
+							proyecto para Banco Santander, el cual utiliza todo el Know how
+							en el área de remates para construir una plataforma de gestión de
+							la venta de propiedades re-poseidas por el banco. El proyecto
+							tiene tal nivel de éxito que es implementado también en los
+							bancos BCI y CHILE ofreciendo una herramienta de gestión y
+							control que ha incrementado la eficiencia del proceso de venta de
+							bienes reposeidos y significado un importante ahorro en los
 
 
 
 
-						Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+							costos operacionales de esa área de negocio.</p>
 
 
 
 
-						</p>
+					</div>
 
 
 
 
-						<h6>Christopher</h6>
+					<div class="person-testimonio">
 
 
 
 
-						<p><span class="desc">Designer</span>
+						<div class="avatar"></div>
 
 
 
 
-						</p>
+						<div class="txt-testimonio">
 
 
 
 
-						<div class="arrow"></div>                   
+							<h5>Perfect!</h5>
 
 
 
 
-                    </div>
+							<p>Grumpy wizards make toxic brew for the evil Queen and Jack.
+								One morning, when Gregor Samsa woke from troubled dreams, he
+								found himself transformed in his bed into a horrible vermin.</p>
 
 
 
 
-                </div>
+							<h6>Christopher</h6>
 
 
 
 
-            </div>
+							<p>
+								<span class="desc">Designer</span>
 
 
 
 
-            <div class="testimonios sc-hr">
+							</p>
 
 
 
 
-                <div class="articulo">
+							<div class="arrow"></div>
 
 
 
 
-                	<h3>Plataforma de gestión de Activos no bancarios</h3>
+						</div>
 
 
 
 
-                    <p>
+					</div>
 
 
 
 
-                    El año 2003, Plataformagroup empieza a trabajar en un gran 
+				</div>
 
 
 
 
-                    proyecto para Banco Santander, el cual utiliza todo el Know 
+			</div>
 
 
 
 
-                    how en el área de remates para construir una plataforma de 
-
-
-
-
-                    gestión de la venta de propiedades re-poseidas por el banco. 
-
-
-
-
-                    El proyecto tiene tal nivel de éxito que es implementado también 
-
-
-
-
-                    en los bancos BCI y CHILE ofreciendo una herramienta de gestión 
-
-
-
-
-                    y control que ha incrementado la eficiencia del proceso de venta 
-
-
-
-
-                    de bienes reposeidos y significado un importante ahorro en los 
-
-
-
-
-                    costos operacionales de esa área de negocio.
-
-
-
-
-                    </p>
-
-
-
-
-                </div>
-
-
-
-
-                <div class="person-testimonio">
-
-
-
-
-                	<div class="avatar">
-
-
-
-
-                    </div>
-
-
-
-
-                    <div class="txt-testimonio">							
-
-
-
-
-						<h5>Perfect!</h5>
-
-
-
-
-						<p>
-
-
-
-
-						Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-
-
-
-
-						</p>
-
-
-
-
-						<h6>Christopher</h6>
-
-
-
-
-						<p><span class="desc">Designer</span>
-
-
-
-
-						</p>
-
-
-
-
-						<div class="arrow"></div>                   
-
-
-
-
-                    </div>
-
-
-
-
-                </div>
-
-
-
-
-            </div>
-
-
-
-
-            <div class="testimonios sc-hr">
-
-
-
-
-                <div class="articulo">
-
-
-
-
-                	<h3>Plataforma de gestión de Activos no bancarios</h3>
-
-
-
-
-                    <p>
-
-
-
-
-                    El año 2003, Plataformagroup empieza a trabajar en un gran 
-
-
-
-
-                    proyecto para Banco Santander, el cual utiliza todo el Know 
-
-
-
-
-                    how en el área de remates para construir una plataforma de 
-
-
-
-
-                    gestión de la venta de propiedades re-poseidas por el banco. 
-
-
-
-
-                    El proyecto tiene tal nivel de éxito que es implementado también 
-
-
-
-
-                    en los bancos BCI y CHILE ofreciendo una herramienta de gestión 
-
-
-
-
-                    y control que ha incrementado la eficiencia del proceso de venta 
-
-
-
-
-                    de bienes reposeidos y significado un importante ahorro en los 
-
-
-
-
-                    costos operacionales de esa área de negocio.
-
-
-
-
-                    </p>
-
-
-
-
-                </div>
-
-
-
-
-                <div class="person-testimonio">
-
-
-
-
-                	<div class="avatar">
-
-
-
-
-                    </div>
-
-
-
-
-                    <div class="txt-testimonio">							
-
-
-
-
-						<h5>Perfect!</h5>
-
-
-
-
-						<p>
-
-
-
-
-						Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-
-
-
-
-						</p>
-
-
-
-
-						<h6>Christopher</h6>
-
-
-
-
-						<p><span class="desc">Designer</span>
-
-
-
-
-						</p>
-
-
-
-
-						<div class="arrow"></div>                   
-
-
-
-
-                    </div>
-
-
-
-
-                </div>
-
-
-
-
-            </div>			
-
-
-
-
-        </div>     	
-
-
-
-
-	</div>
+		</div>
 
 
 

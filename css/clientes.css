@@ -1,23 +1,28 @@
 @CHARSET "UTF-8";
+
 #ourClients .box {
-  float: left;
-  margin-bottom: 30px;
-  width: 475px;
+	float: left;
+	margin-bottom: 30px;
+	width: 475px;
 }
+
 #ourClients .box div.foto {
 	width: 200px;
 	float: left;
 }
+
 #ourClients .box .texto {
-  float: left;
-  padding-left: 15px;
-  padding-top: 40px;
-  width: 250px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 40px;
+	width: 250px;
 }
+
 #ourClients .box .texto h4 {
 	line-height: 90px;
 	color: #333333;
 }
+
 #ourClients .box .texto .descripcion {
-	display: none;/* por ahora lo ocultare*/	
+	display: none; /* por ahora lo ocultare*/
 }

@@ -13,7 +13,7 @@
 
 
 
-<title> Formulario Agregar</title >
+<title>Formulario Agregar</title>
 
 
 
@@ -68,172 +68,127 @@ function validar() {
 
 
 
-<form action="add.php" method="post" name="form">
+	<form action="add.php" method="post" name="form">
 
 
 
 
-	<table>
+		<table>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td valign="top" align="center" width="400" colspan="2"></td>
+				<td valign="top" align="center" width="400" colspan="2"></td>
 
 
 
 
-			<h3>Agregar empleado</h3>
+				<h3>Agregar empleado</h3>
 
 
 
 
-		</tr>
+			</tr>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td align="right" valign="top" width="200">Nombre</td>
+				<td align="right" valign="top" width="200">Nombre</td>
 
 
 
 
-			<td align="right" valign="top" width="200">
+				<td align="right" valign="top" width="200"><input name="nom"
+					type="text" /></td>
 
 
 
 
-				<input name="nom" type="text" /> 
+			</tr>
 
 
 
 
-			</td>
+			<tr>
 
 
 
 
-		</tr>
+				<td align="right" valign="top" width="200">Teléfono</td>
 
 
 
 
-		<tr>
+				<td align="right" valign="top" width="200"><input name="telefono"
+					type="text" /></td>
 
 
 
 
-			<td align="right" valign="top" width="200">Teléfono</td>
+			</tr>
 
 
 
 
-			<td align="right" valign="top" width="200">
+			<tr>
 
 
 
 
-				<input name="telefono" type="text" /> 
+				<td align="right" valign="top" width="200">E-mail</td>
 
 
 
 
-			</td>
+				<td align="right" valign="top" width="200"><input name="mail"
+					type="text" /></td>
 
 
 
 
-		</tr>
+			</tr>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td align="right" valign="top" width="200">E-mail</td>
+				<td align="right" valign="top" width="200"><input type="button"
+					value="volver" onClick="history.back();" /></td>
 
 
 
 
-			<td align="right" valign="top" width="200">
+				<td align="right" valign="top" width="200"><input name="ingresar"
+					type="button" onClick="validar();" value="enviar" /></td>
 
 
 
 
-				<input name="mail" type="text" /> 
+			</tr>
 
 
 
 
-			</td>
+		</table>
 
 
 
 
-		</tr>	
-
-
-
-
-		<tr>
-
-
-
-
-			<td align="right" valign="top" width="200">
-
-
-
-
-				<input type="button" value="volver" onClick="history.back();" />
-
-
-
-
-			</td>
-
-
-
-
-			<td align="right" valign="top" width="200">
-
-
-
-
-				<input name="ingresar" type="button" onClick="validar();" value="enviar"/> 
-
-
-
-
-			</td>
-
-
-
-
-		</tr>			
-
-
-
-
-	</table>
-
-
-
-
-</form>
+	</form>
 
 
 

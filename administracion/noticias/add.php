@@ -1,14 +1,7 @@
-<?php 
+<?php
+require_once ("conexion.php");
 
-
-
-
-require_once("conexion.php");
-
-
-
-
-$sql="insert into empleados values(
+$sql = "insert into empleados values(
 
 
 
@@ -18,29 +11,23 @@ $sql="insert into empleados values(
 
 
 
-	'".$_POST["nom"]."',
+	'" . $_POST ["nom"] . "',
 
 
 
 
-	'".$_POST["telefono"]."',
+	'" . $_POST ["telefono"] . "',
 
 
 
 
-	'".$_POST["mail"]."'
+	'" . $_POST ["mail"] . "'
 
 
 
 
 	)";
 
-
-
-
-mysql_query($sql);	
-
-
-
+mysql_query ( $sql );
 
 ?>

@@ -1,19 +1,5 @@
 <?php
+session_start ();
 
+echo $_SESSION ["demo"]?>
 
-
-
-
-session_start();
-
-
-
-
-
-echo $_SESSION["demo"]
-
-
-
-
-
-?>

@@ -1,5 +1,5 @@
 @CHARSET "utf-8";
-#breadcrumbs span.mn_bc_item {
+#breadcrumbs ul li#nivel3 span.mn_bc_item {
 	text-transform: capitalize;
 }
 #breadcrumbs {

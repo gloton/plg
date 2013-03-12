@@ -1,38 +1,13 @@
 <?php
-
-
-
-
-
-header("Content-Type: application/rss+xml"); 
-
-
-
-
+header ( "Content-Type: application/rss+xml" );
 
 echo "<?xml version='1.0' encoding='utf-8'?>";
 
-
-
-
-
 include_once '../lib/general.php';
 
+$objConsultas = new Consultas ();
 
-
-
-
-$objConsultas = new Consultas();
-
-
-
-
-
-$noticia = $objConsultas->getNoticias(); 
-
-
-
-
+$noticia = $objConsultas->getNoticias ();
 
 ?>
 
@@ -40,109 +15,70 @@ $noticia = $objConsultas->getNoticias();
 
 
 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <!--title es el titulo -->
 
 
 
 
 
-	<channel> <!--title es el titulo -->
+<title>
+	<![CDATA[PlataformaGroup.cl - Lo más nuevo]]>
 
 
 
 
 
-		<title>
+</title>
 
 
 
 
 
-			<![CDATA[PlataformaGroup.cl - Lo más nuevo]]>
+<!--link es donde ira al pinchar en el titulo(por lo menos en ie) -->
 
 
 
 
 
-		</title>
+<link>
 
 
 
 
 
-		<!--link es donde ira al pinchar en el titulo(por lo menos en ie) -->
+<![CDATA[http://www.plataformagroup.cl/]]>
 
 
 
 
 
-		<link>
+</link>
 
 
 
 
 
-		<![CDATA[http://www.plataformagroup.cl/]]>
+<description><![CDATA[PlataformaGroup.cl - La Últimas noticias]]></description>
 
 
 
 
 
-		</link>
+<language>es-es</language> <copyright><![CDATA[Kenya Comunicaciones]]></copyright>
 
 
 
 
 
-		<description><![CDATA[PlataformaGroup.cl - La Últimas noticias]]></description>
+<!-- enlace donde ira a buscar el archivo rss --> <atom:link
+	href="<?php print $sitio;?>/rss/rss.php" rel="self"
+	type="application/rss+xml" /> <ttl>10</ttl> <image> <url>../images/logo.png</url>
 
 
 
 
 
-		<language>es-es</language>
-
-
-
-
-
-		<copyright><![CDATA[Kenya Comunicaciones]]></copyright>
-
-
-
-
-
-		<!-- enlace donde ira a buscar el archivo rss -->
-
-
-
-
-
-		<atom:link href="<?php print $sitio;?>/rss/rss.php" rel="self" type="application/rss+xml" />
-
-
-
-
-
-		<ttl>10</ttl>
-
-
-
-
-
-		<image>
-
-
-
-
-
-			<url>../images/logo.png</url>
-
-
-
-
-
-			<!-- esta me parace que deberia ser el title que 
+<!-- esta me parace que deberia ser el title que 
 
 
 
@@ -166,49 +102,31 @@ $noticia = $objConsultas->getNoticias();
 
 
 
-			<title>PlataformaGroup.cl - De tu logo a las noticias</title>
+<title>PlataformaGroup.cl - De tu logo a las noticias</title>
 
 
 
 
 
-			<link>http://www.plataformagroup.cl</link>
+<link>
+http://www.plataformagroup.cl
+</link>
 
 
 
 
 
-		</image>
+</image> <!--dentro de cada etiqueta item ira cada articulo -->
 
 
 
 
 
-		
+<?php
 
-
-
-
-
-		<!--dentro de cada etiqueta item ira cada articulo -->
-
-
-
-
-
-<?php 
-
-
-
-
-
-for ($i=0;$i<sizeof($noticia);$i++) {
-
-
-
-
-
-?>		
+for($i = 0; $i < sizeof ( $noticia ); $i ++) {
+	
+	?>		
 
 
 
@@ -220,59 +138,42 @@ for ($i=0;$i<sizeof($noticia);$i++) {
 
 
 
-			<title><![CDATA[<?php print $noticia[$i]["titulo"];?>]]></title>
+<title>
+	<![CDATA[<?php print $noticia[$i]["titulo"];?>]]>
+</title>
 
 
 
 
 
-			<link><![CDATA[<?php echo "detalleNoticia.php?idnoticia=".$noticia[$i]["idnoticia"];?>]]></link>
+<link>
+<![CDATA[<?php echo "detalleNoticia.php?idnoticia=".$noticia[$i]["idnoticia"];?>]]>
+</link>
 
 
 
 
 
-			<description><![CDATA[<?php print $noticia[$i]["detalle"];?>]]></description>
+<description><![CDATA[<?php print $noticia[$i]["detalle"];?>]]></description>
 
 
 
 
 
-			<guid isPermaLink="true"> <![CDATA[http://www.google.cl]]></guid>
+<guid isPermaLink="true"> <![CDATA[http://www.google.cl]]></guid> <author><![CDATA[Plataforma Group]]></author>
 
 
 
 
 
-			<author><![CDATA[Plataforma Group]]></author>
-
-
-
-
-
-			<pubDate><![CDATA[<?php print $noticia[$i]["fecha"];?>]]></pubDate>
-
-
-
-
-
-		</item>
+<pubDate><![CDATA[<?php print $noticia[$i]["fecha"];?>]]></pubDate> </item>
 
 
 
 
 
 <?php
-
-
-
-
-
-} 
-
-
-
-
+}
 
 ?>
 
@@ -280,10 +181,4 @@ for ($i=0;$i<sizeof($noticia);$i++) {
 
 
 
-	</channel> 
-
-
-
-
-
-</rss>
+	</channel> </rss>

@@ -13,30 +13,17 @@
 
 
 
-<title> Formulario Modificar</title >
+<title>Formulario Modificar</title>
 
 
 
 
-<?php 
+<?php
+require_once ("conexion.php");
 
+$sql = "Select * from empleados where id_empleado='" . $_GET ["id_empleado"] . "'";
 
-
-
-require_once("conexion.php");
-
-
-
-
-$sql = "Select * from empleados where id_empleado='".$_GET["id_empleado"]."'";
-
-
-
-
-$resultado = mysql_query($sql, $con);
-
-
-
+$resultado = mysql_query ( $sql, $con );
 
 ?>
 
@@ -93,22 +80,16 @@ function validar() {
 
 
 
-<h1>Esta es mi tabla</h1>
+	<h1>Esta es mi tabla</h1>
 
 
 
 
-<?php 
+<?php
 
-
-
-
-if ($fila = mysql_fetch_array($resultado)) {
-
-
-
-
-?>
+if ($fila = mysql_fetch_array ( $resultado )) {
+	
+	?>
 
 
 
@@ -118,185 +99,133 @@ if ($fila = mysql_fetch_array($resultado)) {
 
 
 
-	<table>
+		<table>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td valign="top" align="center" width="400" colspan="2"></td>
+				<td valign="top" align="center" width="400" colspan="2"></td>
 
 
 
 
-			<h3>Modificar empleado</h3>
+				<h3>Modificar empleado</h3>
 
 
 
 
-		</tr>
+			</tr>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td align="right" valign="top" width="200">Nombre</td>
+				<td align="right" valign="top" width="200">Nombre</td>
 
 
 
 
-			<td align="right" valign="top" width="200">
+				<td align="right" valign="top" width="200"><input name="nom"
+					type="text" value="<?php echo $fila["nombre"];?>" /></td>
 
 
 
 
-				<input name="nom" type="text" value="<?php echo $fila["nombre"];?>" /> 
+			</tr>
 
 
 
 
-			</td>
+			<tr>
 
 
 
 
-		</tr>
+				<td align="right" valign="top" width="200">Teléfono</td>
 
 
 
 
-		<tr>
+				<td align="right" valign="top" width="200"><input name="telefono"
+					type="text" value="<?php echo $fila["telefono"];?>" /></td>
 
 
 
 
-			<td align="right" valign="top" width="200">Teléfono</td>
+			</tr>
 
 
 
 
-			<td align="right" valign="top" width="200">
+			<tr>
 
 
 
 
-				<input name="telefono" type="text" value="<?php echo $fila["telefono"];?>" /> 
+				<td align="right" valign="top" width="200">E-mail</td>
 
 
 
 
-			</td>
+				<td align="right" valign="top" width="200"><input name="mail"
+					type="text" value="<?php echo $fila["correo"];?>" /></td>
 
 
 
 
-		</tr>
+			</tr>
 
 
 
 
-		<tr>
+			<tr>
 
 
 
 
-			<td align="right" valign="top" width="200">E-mail</td>
+				<td align="right" valign="top" width="200"><input type="hidden"
+					name="id_empleado" value="<?php echo  $_GET["id_empleado"]; ?>" />
 
 
 
 
-			<td align="right" valign="top" width="200">
+					<input type="button" value="volver" onClick="history.back();" /></td>
 
 
 
 
-				<input name="mail" type="text" value="<?php echo $fila["correo"];?>" /> 
+				<td align="right" valign="top" width="200"><input name="ingresar"
+					type="button" onClick="validar();" value="Modificar" /></td>
 
 
 
 
-			</td>
+			</tr>
 
 
 
 
-		</tr>	
+		</table>
 
 
 
 
-		<tr>
+	</form>
 
 
 
 
-			<td align="right" valign="top" width="200">
-
-
-
-
-            	<input type="hidden" name="id_empleado" value="<?php echo  $_GET["id_empleado"]; ?>" />
-
-
-
-
-				<input type="button" value="volver" onClick="history.back();" />
-
-
-
-
-			</td>
-
-
-
-
-			<td align="right" valign="top" width="200">
-
-
-
-
-				<input name="ingresar" type="button" onClick="validar();" value="Modificar"/> 
-
-
-
-
-			</td>
-
-
-
-
-		</tr>			
-
-
-
-
-	</table>
-
-
-
-
-</form>
-
-
-
-
-<?php 
-
-
-
-
+<?php
 }
-
-
-
 
 ?>
 

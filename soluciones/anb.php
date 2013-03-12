@@ -2,12 +2,12 @@
 <html lang="es">
 <head>
 <?php
-if (is_file("../lib/general.php")) {
-	include_once("../lib/constantes.php");
-	include_once("../lib/general.php");
+if (is_file ( "../lib/general.php" )) {
+	include_once ("../lib/constantes.php");
+	include_once ("../lib/general.php");
 } else {
-	include_once("lib/constantes.php");
-	include_once("lib/general.php");
+	include_once ("lib/constantes.php");
+	include_once ("lib/general.php");
 }
 $selected = "PRODUCTOS Y SERVICIOS";
 $pagina = "ANB";
@@ -35,20 +35,20 @@ $pagina = "ANB";
 <style type="text/css">
 /*marca menu pp pagina seleccionada*/
 #li_productos a {
-    background: none repeat scroll 0 0 #f0f0f0;
-    color: #000000;
-    opacity: 1;
+	background: none repeat scroll 0 0 #f0f0f0;
+	color: #000000;
+	opacity: 1;
 }
 </style>
 </head>
 <body>
 	<div id="wrap">
 	<?php
-		if (is_file("../partes/header.php")) {
-			include_once("../partes/header.php");
-		} else {
-			include_once("partes/header.php");
-		}		
+	if (is_file ( "../partes/header.php" )) {
+		include_once ("../partes/header.php");
+	} else {
+		include_once ("partes/header.php");
+	}
 	?>
     <div class="contenedor">
     	<?php include_once("../partes/breadcrumbs.php");?>
@@ -113,168 +113,188 @@ $pagina = "ANB";
 					</div>
 					<div id="pestana3">
 						<div id="acordeon">
-							<h3><a href="#">Módulo de Ingreso de Propiedades</a></h3>
+							<h3>
+								<a href="#">Módulo de Ingreso de Propiedades</a>
+							</h3>
 							<div>
 								<p>Módulo en que el abogado a cargo del juicio de cobranza
-								ingresa la propiedad al sistema, informando que se ha fijado
-								fecha de remate y los datos de este.
-								</p>
+									ingresa la propiedad al sistema, informando que se ha fijado
+									fecha de remate y los datos de este.</p>
 							</div>
-							<h3><a href="#">Módulo de Ingreso Manual de Propiedades</a></h3>
+							<h3>
+								<a href="#">Módulo de Ingreso Manual de Propiedades</a>
+							</h3>
 							<div>
 								<p>Módulo en el que se ingresan manualmente los bienes que no
-								provienen del módulo de remate judicial, diferenciando la
-								carga en propiedades y bienes muebles.
-								</p>
+									provienen del módulo de remate judicial, diferenciando la carga
+									en propiedades y bienes muebles.</p>
 							</div>
-							<h3><a href="#">Módulo de Comité de Precio Remate Judicial</a></h3>
+							<h3>
+								<a href="#">Módulo de Comité de Precio Remate Judicial</a>
+							</h3>
 							<div>
 								<p>Ingresada la propiedad al sistema, llega aviso al encargado
-								de preparar el comité de remate judicial, en que el Banco
-								tomará la decisión de cómo participar, fijando la estrategia
-								de precios de acuerdo a los distintos escenarios que se puedan
-								presentar, en caso que hayan postores o no.
-								</p>
+									de preparar el comité de remate judicial, en que el Banco
+									tomará la decisión de cómo participar, fijando la estrategia de
+									precios de acuerdo a los distintos escenarios que se puedan
+									presentar, en caso que hayan postores o no.</p>
 							</div>
-							<h3><a href="#">Contribuciones</a></h3>
+							<h3>
+								<a href="#">Contribuciones</a>
+							</h3>
 							<div>
 								<p>Módulo para la administración de pagos por concepto de
-								contribuciones.
-								</p>
+									contribuciones.</p>
 							</div>
-							<h3><a href="#">Módulo de Adjudicación de la Propiedad</a></h3>
+							<h3>
+								<a href="#">Módulo de Adjudicación de la Propiedad</a>
+							</h3>
 							<div>
 								<p>Pasado el remate judicial, el abogado a cargo del juicio
-								carga el resultado en Plataforma, el que de ser “Adjudicada
-								por el Banco”, sale automáticamente un aviso a los encargados
-								que se definan, los que cargan la información necesaria para
-								que la propiedad se empiece a administrar, chequeando su
-								estado de ocupación, fijando precios de venta, asignando
-								corredores de propiedades, actualizando la tasación, fotos,
-								etc.
-								</p>
+									carga el resultado en Plataforma, el que de ser “Adjudicada por
+									el Banco”, sale automáticamente un aviso a los encargados que
+									se definan, los que cargan la información necesaria para que la
+									propiedad se empiece a administrar, chequeando su estado de
+									ocupación, fijando precios de venta, asignando corredores de
+									propiedades, actualizando la tasación, fotos, etc.</p>
 							</div>
-							<h3><a href="#">Juicios por Desalojo</a></h3>
+							<h3>
+								<a href="#">Juicios por Desalojo</a>
+							</h3>
 							<div>
 								<p>Administración de juicios por desalojo de cada bien.</p>
 							</div>
-							<h3><a href="#">Módulo de Ficha Interna	Propiedad</a></h3>
+							<h3>
+								<a href="#">Módulo de Ficha Interna Propiedad</a>
+							</h3>
 							<div>
-								<p>Ficha de trabajo en que los usuarios Banco acceden a toda
-								la información que se tenga de la propiedad en Plataforma,
-								como fotografías, mapa de ubicación, planos de planta,
-								tasaciones, precio de publicación, gastos, corredor a cargo,
-								administrador, etc.
-								</p>
+								<p>Ficha de trabajo en que los usuarios Banco acceden a toda la
+									información que se tenga de la propiedad en Plataforma, como
+									fotografías, mapa de ubicación, planos de planta, tasaciones,
+									precio de publicación, gastos, corredor a cargo, administrador,
+									etc.</p>
 							</div>
-							<h3><a href="#">Módulo de Seguimiento Juicios</a></h3>
+							<h3>
+								<a href="#">Módulo de Seguimiento Juicios</a>
+							</h3>
 							<div>
 								<p>En caso de que la propiedad adjudicada se encuentre ocupada
-								se asigna un abogado que gestione el juicio de desalojo, el
-								que vía sistema será informado, e informará los avances que
-								tenga el juicio hasta que sea desalojada la propiedad, o
-								eventualmente sea vendida.
-								</p>
+									se asigna un abogado que gestione el juicio de desalojo, el que
+									vía sistema será informado, e informará los avances que tenga
+									el juicio hasta que sea desalojada la propiedad, o
+									eventualmente sea vendida.</p>
 							</div>
-							<h3><a href="#">Módulo de Gastos</a></h3>
+							<h3>
+								<a href="#">Módulo de Gastos</a>
+							</h3>
 							<div>
 								<p>Módulo en que los corredores, administradores, o quien el
-								Banco determine, cargue los gastos directos e indirectos de
-								las propiedades administradas, permitiendo llevar un control
-								en línea por ítem de gasto, de la situación de cada una o del
-								conjunto de ellas.
-								</p>
+									Banco determine, cargue los gastos directos e indirectos de las
+									propiedades administradas, permitiendo llevar un control en
+									línea por ítem de gasto, de la situación de cada una o del
+									conjunto de ellas.</p>
 							</div>
-							<h3><a href="#">Módulo Fondos por Rendir</a></h3>
+							<h3>
+								<a href="#">Módulo Fondos por Rendir</a>
+							</h3>
 							<div>
-								<p>Módulo en que se asigna a los corredores, administradores,
-								o quien el Banco determine, un fondo a rendir para solventar
-								los gastos de las propiedades, el que es rendido a través del
-								mismo módulo.
-								</p>
+								<p>Módulo en que se asigna a los corredores, administradores, o
+									quien el Banco determine, un fondo a rendir para solventar los
+									gastos de las propiedades, el que es rendido a través del mismo
+									módulo.</p>
 							</div>
-							<h3><a href="#">Módulo de Publicaciones</a></h3>
+							<h3>
+								<a href="#">Módulo de Publicaciones</a>
+							</h3>
 							<div>
 								<p>Módulo en que se administra y lleva el control de las
-								publicaciones de las propiedades en los medios, conectándose
-								directamente a través de Plataforma con la agencia de
-								publicidad que tenga el Banco para dicha tarea, la que carga
-								los avisos y gastos incurridos en los avisos.
-								</p>
+									publicaciones de las propiedades en los medios, conectándose
+									directamente a través de Plataforma con la agencia de
+									publicidad que tenga el Banco para dicha tarea, la que carga
+									los avisos y gastos incurridos en los avisos.</p>
 							</div>
-							<h3><a href="#">Módulo de Licitaciones</a></h3>
+							<h3>
+								<a href="#">Módulo de Licitaciones</a>
+							</h3>
 							<div>
 								<p>Módulo en que se agrupan las propiedades enviadas a
-								licitación, fijando el "Mínimo Publicado" y el "Monto
-								Adjudicación". Una vez aprobado, pasan las adjudicaciones al
-								comité de ofertas para su validación y posterior post venta.
-								</p>
+									licitación, fijando el "Mínimo Publicado" y el "Monto
+									Adjudicación". Una vez aprobado, pasan las adjudicaciones al
+									comité de ofertas para su validación y posterior post venta.</p>
 							</div>
-							<h3><a href="#">Módulo de Comité de Ofertas</a></h3>
+							<h3>
+								<a href="#">Módulo de Comité de Ofertas</a>
+							</h3>
 							<div>
 								<p>Módulo en que se centralizan todas las ofertas de
-								propiedades, en que de acuerdo a niveles de firma se aceptan o
-								rechazan.
-								</p>
-							</div>	
-							<h3><a href="#">Módulo de Seguimiento Post-venta</a></h3>
+									propiedades, en que de acuerdo a niveles de firma se aceptan o
+									rechazan.</p>
+							</div>
+							<h3>
+								<a href="#">Módulo de Seguimiento Post-venta</a>
+							</h3>
 							<div>
 								<p>Una vez aceptada una oferta, se emiten en el sistema una
-								serie de tareas concatenadas entre si sujetas a plazo, las que
-								son avisadas a cada responsable de realizarla, yendo desde la
-								recopilación de antecedentes para escriturar, hasta la
-								desactivación contable del bien.
-								</p>
-							</div>	
-							<h3><a href="#">Módulo de Bitácoras</a></h3>
+									serie de tareas concatenadas entre si sujetas a plazo, las que
+									son avisadas a cada responsable de realizarla, yendo desde la
+									recopilación de antecedentes para escriturar, hasta la
+									desactivación contable del bien.</p>
+							</div>
+							<h3>
+								<a href="#">Módulo de Bitácoras</a>
+							</h3>
 							<div>
 								<p>Módulo de comunicación del sistema, en que cada usuario
-								ingresa información a las propiedades, las que quedan
-								registradas históricamente en cada propiedad. Existen
-								bitácoras manuales, que son ingresadas por los usuarios, y
-								bitácoras automáticas, que son registradas de acuerdo a
-								procesos que suceden en el sistema, como cambios de precios,
-								publicaciones, aceptación de ofertas, etc.
-								</p>
-							</div>	
-							<h3><a href="#">Módulo de Tasaciones</a></h3>
+									ingresa información a las propiedades, las que quedan
+									registradas históricamente en cada propiedad. Existen bitácoras
+									manuales, que son ingresadas por los usuarios, y bitácoras
+									automáticas, que son registradas de acuerdo a procesos que
+									suceden en el sistema, como cambios de precios, publicaciones,
+									aceptación de ofertas, etc.</p>
+							</div>
+							<h3>
+								<a href="#">Módulo de Tasaciones</a>
+							</h3>
 							<div>
 								<p>Módulo en que se solicitan nuevas tasaciones al área de
-								tasaciones del Banco, o directamente al tasador, para que
-								independiente de quien, se cargue digitalmente, y así quede en
-								la ficha de consulta interna de cada propiedad.
-								</p>
+									tasaciones del Banco, o directamente al tasador, para que
+									independiente de quien, se cargue digitalmente, y así quede en
+									la ficha de consulta interna de cada propiedad.</p>
 							</div>
-							<h3><a href="#">Módulo de Página Web</a></h3>
+							<h3>
+								<a href="#">Módulo de Página Web</a>
+							</h3>
 							<div>
 								<p>Vitrina pública de promoción de las propiedades disponibles
-								para la venta, que se arma automáticamente con la información
-								que se defina del sistema.
-								</p>
+									para la venta, que se arma automáticamente con la información
+									que se defina del sistema.</p>
 							</div>
-							<h3><a href="#">Módulo de Home según perfil</a></h3>
+							<h3>
+								<a href="#">Módulo de Home según perfil</a>
+							</h3>
 							<div>
 								<p>Cada usuario, de acuerdo al perfil que tenga, tendrá una
-								página de inicio en Plataforma, con informes predefinidos para
-								su gestión.
-								</p>
-							</div>	
-							<h3><a href="#">Documentos</a></h3>
+									página de inicio en Plataforma, con informes predefinidos para
+									su gestión.</p>
+							</div>
+							<h3>
+								<a href="#">Documentos</a>
+							</h3>
 							<div>
 								<p>Generación de documentos relacionados a la gestión de cada
-								bien (seriedad de oferta, acta de recepción, carta para
-								ocupante, retasaciones, etc.)
-								</p>
+									bien (seriedad de oferta, acta de recepción, carta para
+									ocupante, retasaciones, etc.)</p>
 							</div>
-							<h3><a href="#">Módulo de Informes</a></h3>
+							<h3>
+								<a href="#">Módulo de Informes</a>
+							</h3>
 							<div>
 								<p>Independiente de los informes que se tengan en la HOME de
-								cada usuario, Plataforma entrega informes predefinidos de
-								ventas, situación de la cartera por antigüedad, ubicación,
-								tipos de propiedades, gastos por concepto, y todos los que se
-								requieran para la gestión.
-								</p>
-							</div>	
+									cada usuario, Plataforma entrega informes predefinidos de
+									ventas, situación de la cartera por antigüedad, ubicación,
+									tipos de propiedades, gastos por concepto, y todos los que se
+									requieran para la gestión.</p>
+							</div>
 						</div>
 					</div>
 					<div id="pestana4">

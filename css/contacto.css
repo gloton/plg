@@ -1,132 +1,26 @@
 @CHARSET "utf-8";
 
-
-
-
-
 #opciones_servicetonic {
-
-
-
-
-
-    padding-bottom: 40px;
-
-
-
-
-
-    padding-left: 58px;
-
-
-
-
-
+	padding-bottom: 40px;
+	padding-left: 58px;
 }
 
-
-
-
-
-#contact-form div.check-st{
-
-
-
-
-
-	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-
-
-
-
-
+#contact-form div.check-st {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-weight: bold;
-
-
-
-
-
 	width: 230px;
-
-
-
-
-
 	height: 28px;
-
-
-
-
-
 	float: left;
-
-
-
-
-
 }
-
-
-
-
 
 #contact-form div.check-st input {
-
-
-
-
-
 	display: block;
-
-
-
-
-
 	float: left;
-
-
-
-
-
 	margin-top: 9px;
-
-
-
-
-
 }
-
-
-
-
 
 #contact-form div.check-st span {
-
-
-
-
-
 	padding: 5px;
-
-
-
-
-
 	display: block;
-
-
-
-
-
 	float: left;
-
-
-
-
-
 }
-
-
-
-
-

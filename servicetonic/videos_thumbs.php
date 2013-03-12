@@ -17,22 +17,8 @@
 
 
 <?php
-
-
-
-
-
-include_once("../lib/constantes.php");
-include_once("../lib/general.php");
-
-
-
-
-
-
-
-
-
+include_once ("../lib/constantes.php");
+include_once ("../lib/general.php");
 
 ?>
 
@@ -46,19 +32,21 @@ include_once("../lib/general.php");
 
 
 
-<title>Galeria de videos</title >
+<title>Galeria de videos</title>
 
 
 
 
 
-<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/servicetonic.css" />
+<link type="text/css" rel="stylesheet"
+	href="<?php echo $sitio; ?>/css/servicetonic.css" />
 
 
 
 
 
-<link rel="stylesheet" href="../js/easybox/easybox.min.css" type="text/css" media="screen" />	
+<link rel="stylesheet" href="../js/easybox/easybox.min.css"
+	type="text/css" media="screen" />
 
 
 
@@ -118,7 +106,7 @@ $(document).ready( function ()
 
 
 
-	<script type="application/json" id="easyOptions">
+<script type="application/json" id="easyOptions">
 
 
 
@@ -286,67 +274,15 @@ $(document).ready( function ()
 
 
 
-	<h1 id="tituvideos"><a href="index.php">&laquo; Volver</a></h1>
+	<h1 id="tituvideos">
+		<a href="index.php">&laquo; Volver</a>
+	</h1>
 
 
 
 
 
-	<div id="thum_videos">		
-
-
-
-
-
-		<div class="cajavideo fila1">
-
-
-
-
-
-			<div class="miniatura">
-
-
-
-
-
-				<a href="video-embebido1.php" title="Portal web de usuario" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
-
-
-
-
-
-			</div>
-
-
-
-
-
-			<div class="descripcion">
-
-
-
-
-
-				<p>Portal web de usuario
-
-
-
-
-
-				</p>
-
-
-
-
-
-			</div>
-
-
-
-
-
-		</div>
+	<div id="thum_videos">
 
 
 
@@ -364,7 +300,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido2.php" title="Aplicación de agentes" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido1.php" title="Portal web de usuario"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -382,13 +321,7 @@ $(document).ready( function ()
 
 
 
-				<p>Aplicación de agentes
-
-
-
-
-
-				</p>
+				<p>Portal web de usuario</p>
 
 
 
@@ -418,7 +351,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido3.php" title="CMDB" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido2.php" title="Aplicación de agentes"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -436,13 +372,7 @@ $(document).ready( function ()
 
 
 
-				<p>CMDB
-
-
-
-
-
-				</p>
+				<p>Aplicación de agentes</p>
 
 
 
@@ -472,7 +402,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido4.php" title="Administración ServiceTonic" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido3.php" title="CMDB" rel="lightbox-iframe"><img
+					class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -490,13 +423,58 @@ $(document).ready( function ()
 
 
 
-				<p>Administración ServiceTonic
+				<p>CMDB</p>
 
 
 
 
 
-				</p>
+			</div>
+
+
+
+
+
+		</div>
+
+
+
+
+
+		<div class="cajavideo fila1">
+
+
+
+
+
+			<div class="miniatura">
+
+
+
+
+
+				<a href="video-embebido4.php" title="Administración ServiceTonic"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
+
+
+
+
+
+			</div>
+
+
+
+
+
+			<div class="descripcion">
+
+
+
+
+
+				<p>Administración ServiceTonic</p>
 
 
 
@@ -526,7 +504,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido5.php" title="Listas de contactos dinámicas" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido5.php" title="Listas de contactos dinámicas"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -544,13 +525,7 @@ $(document).ready( function ()
 
 
 
-				<p>Listas de contactos dinámicas
-
-
-
-
-
-				</p>
+				<p>Listas de contactos dinámicas</p>
 
 
 
@@ -580,7 +555,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido6.php" title="Gestión de activos" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido6.php" title="Gestión de activos"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -598,13 +576,7 @@ $(document).ready( function ()
 
 
 
-				<p>Gestión de activos
-
-
-
-
-
-				</p>
+				<p>Gestión de activos</p>
 
 
 
@@ -634,7 +606,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido7.php" title="Módulo de integradores" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido7.php" title="Módulo de integradores"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -652,13 +627,7 @@ $(document).ready( function ()
 
 
 
-				<p>Módulo de integradores
-
-
-
-
-
-				</p>
+				<p>Módulo de integradores</p>
 
 
 
@@ -688,7 +657,10 @@ $(document).ready( function ()
 
 
 
-				<a href="video-embebido8.php" title="Capacidad MultiServicio" rel="lightbox-iframe"><img class="foto" src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg" alt="imagen por defecto" /></a>
+				<a href="video-embebido8.php" title="Capacidad MultiServicio"
+					rel="lightbox-iframe"><img class="foto"
+					src="../images/servicetonic/videos/thum_default_videos_servicetonic.jpg"
+					alt="imagen por defecto" /></a>
 
 
 
@@ -706,13 +678,7 @@ $(document).ready( function ()
 
 
 
-				<p>Capacidad MultiServicio
-
-
-
-
-
-				</p>
+				<p>Capacidad MultiServicio</p>
 
 
 
