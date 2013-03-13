@@ -77,7 +77,7 @@ $pagina = "ANB";
 							de los bienes, al que se puede acceder en cualquier tiempo y
 							lugar.</p>
 						<p>La Plataforma ANB contempla la adecuación e implementación de
-							Módulos de Gestión y Control de Gestión, orientados a eficientar
+							Módulos de Gestión y Control de Gestión, orientados a hacer eficiente
 							el proceso administrativo relacionado con la comercialización de
 							Bienes Inmuebles, abarcando el proceso desde el ingreso del bien
 							a los sistemas del Banco hasta su desactivación contable. Toda la
@@ -91,9 +91,9 @@ $pagina = "ANB";
 							información.</p>
 					</div>
 					<div id="pestana2">
+						<h2>Características Técnicas</h2>
 						<ul id="molulos_sistema" class="caracteristicas">
-							<li class="titu_item"><span>Plataforma de desarrollo .Net con SQL
-									Server 2005</span></li>
+							<li class="titu_item"><span>Plataforma de desarrollo .Net con SQL Server 2005</span></li>
 							<li class="titu_item"><span>Modelo de Desarrollo en 4 capas</span>
 								<ul>
 									<li>Capa de Acceso a Datos</li>

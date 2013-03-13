@@ -74,11 +74,13 @@ $pagina = "ALIANZAS ";
 				</div>
 				<div class="desc-aliado">
 					<h3>Servicetonic</h3>
-					<p>ServiceTonic es una compañía española que ha desarrollado una potente plataforma 
-					<a href="servicetonic/index.php" target="_self" title="Pagina de ServiceTonic"><strong>Help Desk</strong></a> para la automatización y gestión de servicios, eficiente y con bajos costos 
-					de implementación: 100% WEB, potente, versátil, totalmente configurable y muy fácil de 
-					usar, la que es representada y comercializada en Chile por PLATAFORMA GROUP. Desde el 
-					año 2011 contamos con más de 20 clientes que han confiado en este producto"
+					<p>Empresa española, que ha desarrollado una potente plataforma de <a href="servicetonic/index.php" target="_self" title="Pagina de ServiceTonic"><strong>Help Desk</strong></a> que 
+					ofrece altísimas prestaciones para mejorar el rendimiento de equipos de trabajo, 
+					reduciendo significativamente sus costos de operación, aumentando el nivel de 
+					seguimiento y gestión de las incidencias y elevando significativamente la calidad 
+					y satisfacción de los clientes . Bajo la representación en Chile de PLATAFORMA GROUP, 
+					cuenta actualmente con más de 20 instalaciones (solo en Chile) dando soluciones a 
+					empresas tan grandes como: Banco BCI, Euroamerica, Coca Cola, Pullman Bus entre otros.
 					</p>
 				</div>
 			</div>
@@ -91,7 +93,7 @@ $pagina = "ALIANZAS ";
 					<p>MedicaGroup es una empresa que agrupa a una red de profesionales
 						especialistas en salud, que en conjunto con profesionales de otras
 						áreas, han logrado optimizar la gestión en diversas áreas de la
-						medicina -destacándose en Gestión de Centros Médicos y
+						medicina destacándose en Gestión de Centros Médicos y
 						Telemedicina, utilizando herramientas modernas de gestión e
 						incorporando tecnologías inteligentes en los procesos clínicos y
 						administrativos; para esto cuenta con el respaldo de Plataforma

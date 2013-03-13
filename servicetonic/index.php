@@ -125,23 +125,23 @@ function visitar() {
 							src="<?php echo $sitio;?>/images/logos/logo_servicetonic.png"
 							alt="Logo ServiceTonic" />
 						<ul id="contact_servicetonic">
-							<li>
+							<li id="solicita_demo"  onClick="visitar();">
 								<p>
 									<span class="titu_top">Solicitar</span> <br /> <span
 										class="titu_bottom">Demo</span>
 								</p>
-								<div class="thumb_container" onClick="visitar_demo();">
+								<div class="thumb_container" >
 									<img src="../images/servicetonic/plataformagroup_demo.png"
 										alt="thumb" border="0" />
 									<div class="large_thumb_shine" style="cursor: pointer"></div>
 								</div>
 							</li>
-							<li>
+							<li id="solicita_datos" onClick="visitar();">
 								<p>
 									<span class="titu_top">Datos de</span> <br /> <span
 										class="titu_bottom">Contacto</span>
 								</p>
-								<div class="thumb_container_email" onClick="visitar();">
+								<div class="thumb_container_email">
 									<img src="../images/servicetonic/plataformagroup_contacto.png"
 										alt="thumb" border="0" />
 									<div class="large_thumb_shine" style="cursor: pointer"></div>
@@ -175,18 +175,34 @@ function visitar() {
 							</a></li>
 						</ul>
 						<ul id="output">
-							<li><iframe src="./tab-beneficios.php" frameborder="0"
-									scrolling="no" width="460" height="320"></iframe> <a href="#">Ver
-									Detalles...</a></li>
-							<li><iframe src="./tab-areas-aplicacion.php" frameborder="0"
-									scrolling="no" width="460" height="320"></iframe> <a href="#">Ver
-									Detalles...</a></li>
-							<li><iframe src="./tab-gestion-activos.php" frameborder="0"
-									scrolling="no" width="460" height="320"></iframe> <a href="#">Ver
-									Detalles...</a></li>
-							<li><iframe src="./tab-casos-exito.php" frameborder="0"
-									scrolling="no" width="460" height="320"></iframe> <a href="#">Ver
-									Detalles...</a></li>
+							<li>
+								<iframe src="./tab-beneficios.php" frameborder="0" scrolling="no" width="460" height="320"></iframe>
+									<!-- 
+									<a href="#">
+										Ver	Detalles...
+									</a>
+									 -->
+								</li>
+							<li><iframe src="./tab-areas-aplicacion.php" frameborder="0" scrolling="no" width="460" height="320"></iframe>
+									<!-- 
+									<a href="#">
+										Ver	Detalles...
+									</a>
+									 -->									
+							<li><iframe src="./tab-gestion-activos.php" frameborder="0"	scrolling="no" width="460" height="320"></iframe>
+									<!-- 
+									<a href="#">
+										Ver	Detalles...
+									</a>
+									 -->							
+							</li>
+							<li><iframe src="./tab-casos-exito.php" frameborder="0"	scrolling="no" width="460" height="320"></iframe>
+									<!-- 
+									<a href="#">
+										Ver	Detalles...
+									</a>
+									 -->							
+							</li>
 						</ul>
 					</div>
 				</div>

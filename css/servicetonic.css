@@ -265,3 +265,16 @@ img.centered {
 	margin: 6px auto 0;
 	width: 116px;
 }
+#servicetonic #servicetonic-logo li#solicita_demo {
+	cursor: pointer;
+	border-right: 1px dashed #DBDBDB;
+	float: left;
+	margin-right: 30px;
+	width: 130px;	
+}
+#servicetonic #servicetonic-logo li#solicita_datos {
+	cursor: pointer;
+	float: left;
+	margin-right: 30px;
+	width: 130px;	
+}

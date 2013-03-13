@@ -144,7 +144,7 @@ $selected = "NOTICIAS";
 							<em>Para mayor información visite: <a
 								href="http://www.solmicro.com/programas-de-gestion/erp-software-de-gestion.html"
 								target="_blank">SOLMICRO</a> o contáctenos a: <a
-								href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a></em>
+								href="mailto:contacto@plataformagroup.cl">contacto@plataformagroup.cl</a></em>
 						</p>
 					</div>
 				</div>

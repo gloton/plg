@@ -65,7 +65,7 @@ $pagina = "EMPRESA "?>
 						servicios de calidad estandarizada y homogénea, según las mejores
 						prácticas de la industria TI, tenemos certificados recientemente
 						nuestros procesos de desarrollo y comercialización en la norma de
-						gestión de calidad de ISO9001:2008. Hemos desarrollado diversos
+						gestión de calidad de ISO 9001:2008. Hemos desarrollado diversos
 						sistemas en el área de la banca, remates, retail, entre otras, con
 						soluciones implantadas y resultados visibles y cuantificables.</p>
 					<h2>Bienvenido a Plataforma Group</h2>

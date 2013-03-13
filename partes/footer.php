@@ -24,9 +24,9 @@
 				title="Remates en Vivo"><span>Remates en Vivo</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/soluciones/vitrina-remates.php"
 				title="Vitrina Remates"><span>Vitrina Remates</span></a></li>
-			<li><a href="<?php echo $sitio; ?>/soluciones/productos.php"
+			<li><a href="<?php echo $sitio; ?>/soluciones/gestion-examenes-medicos-imad.php"
 				title="IMAD"><span>IMAD</span></a></li>
-			<li><a href="<?php echo $sitio; ?>/soluciones/productos.php"
+			<li><a href="<?php echo $sitio; ?>/soluciones/cuadro-de-mando-integral.php"
 				title="CMI"><span>CMI</span></a></li>
 		</ul>
 		<ul class="listafooter menu_footer_col3">
@@ -41,7 +41,7 @@
 				title="Alianzas"><span>Alianzas</span></a></li>
 		</ul>
 		<ul class="listafooter menu_footer_col5">
-			<li class="titulista"><a href="<?php echo $sitio; ?>/noticias.php"><span>Noticias</span></a></li>
+			<li class="titulista"><a href="javascript:void(0);" title="Noticias"><span>Noticias</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/noticias/index.php"
 				title="Alianzas"><span>Noticias</span></a></li>
 		</ul>
@@ -57,7 +57,7 @@
 				<li>Santiago</li>
 				<li>Tel. (562) 2 963 8030</li>
 				<li style="margin-left: 147px;"><a
-					href="<?php echo $sitio; ?>/contacto.php"><span>contacto@platafomagoup.cl</span></a></li>
+					href="<?php echo $sitio; ?>/contacto.php"><span>contacto@plataformagroup.cl</span></a></li>
 			</ul>
 		</div>
 	</div>

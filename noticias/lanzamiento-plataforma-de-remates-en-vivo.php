@@ -129,14 +129,14 @@ $selected = "NOTICIAS";
 							servicios que permite que los participantes web estén escuchando
 							lo que sucede en el Salón de Remates y contagiándose de la
 							adrenalina del mismo, a su vez los participantes del Salón pueden
-							ver en línea las pujas que realizan los participantes de
+							ver en línea las posturas que realizan los participantes de
 							internet.</p>
 						<p>
 							Esta poderosa herramienta permite la realización en línea de
 							todos los tipos de remates habituales del mercado, incluyendo
 							remates con derecho de selección de cantidad. Para mayor
 							información contáctenos a: <a
-								href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a>
+								href="mailto:contacto@plataformagroup.cl">contacto@plataformagroup.cl</a>
 						</p>
 					</div>
 				</div>

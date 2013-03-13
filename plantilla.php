@@ -30,7 +30,7 @@ $selected = "NOSOTROS";
 					<li>Monjitas #527, Of. 1316</li>
 					<li>Santiago</li>
 					<li>Tel. (562) 366 0130</li>
-					<li>contacto@platafomagoup.cl</li>
+					<li>contacto@plataformagroup.cl</li>
 				</ul>
 				<ul class="listafooter">
 					<li class="titulista"><span>Empresa</span></li>

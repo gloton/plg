@@ -153,10 +153,9 @@ jQuery(window).load(function(){
 					<h3>D&oacute;nde estamos</h3>
 					<p>
 						Monjitas #527, Of. 1316 Santiago<br /> Tel. (562) 2 963 8030<br />
-						<a href="mailto:contacto@platafomagoup.cl">contacto@platafomagoup.cl</a>
+						<a href="mailto:contacto@plataformagroup.cl">contacto@plataformagroup.cl</a>
 					</p>
 					<div id="map_canvas" style="width: 280px; height: 300px"></div>
-
 				</div>
 				<div class="clearfix"></div>
 			</div>

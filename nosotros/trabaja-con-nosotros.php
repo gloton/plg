@@ -160,8 +160,8 @@ $pagina = "TRABAJA CON NOSOTROS "
 							quieres integrarte a un equipo de profesionales con basta
 							experiencia, encontrar un excelente clima laboral y muchas
 							posibilidades de crecimiento profesional, ingresa tus datos y tu
-							curriculum en el formulario de la derecha o envíanos tu
-							curriculum a <a href="mailto:contacto@plataformagroup.cl"
+							currículum en el formulario de la derecha o envíanos tu
+							currículum a <a href="mailto:contacto@plataformagroup.cl"
 								style="color: #1F9D48;">contacto@plataformagroup.cl</a>
 						</p>
 					</div>

@@ -217,7 +217,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a href="<?php echo $sitio; ?>/servicetonic/index.php">
+											</a> 
+											<a href="<?php echo $sitio; ?>/servicetonic/index.php">
 												<div class="box">
 													<div class="foto">
 														<img
@@ -231,8 +232,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a
-												href="<?php echo $sitio; ?>/soluciones/plataforma-cobranza-judicial.php">
+											</a> 
+											<a href="<?php echo $sitio; ?>/soluciones/plataforma-cobranza-judicial.php">
 												<div class="box">
 													<div class="foto">
 														<img
@@ -246,8 +247,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a
-												href="<?php echo $sitio; ?>/soluciones/remates-en-vivo.php">
+											</a> 
+											<a href="<?php echo $sitio; ?>/soluciones/remates-en-vivo.php">
 												<div class="box">
 													<div class="foto">
 														<img src="<?php echo $sitio; ?>/images/menu/remates-en-vivo_menu.jpg"
@@ -260,8 +261,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a
-												href="<?php echo $sitio; ?>/soluciones/vitrina-remates.php">
+											</a>
+											<a href="<?php echo $sitio; ?>/soluciones/vitrina-remates.php">
 												<div class="box">
 													<div class="foto">
 														<img
@@ -275,8 +276,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a
-												href="<?php echo $sitio; ?>/soluciones/gestion-examenes-medicos-imad.php">
+											</a>
+											<a href="<?php echo $sitio; ?>/soluciones/gestion-examenes-medicos-imad.php">
 												<div class="box">
 													<div class="foto">
 														<img src="<?php echo $sitio; ?>/images/menu/imad_menu.jpg"
@@ -289,8 +290,8 @@ inicio del menu
 														</div>
 													</div>
 												</div>
-											</a> <a
-												href="<?php echo $sitio; ?>/soluciones/cuadro-de-mando-integral.php">
+											</a>
+											<a href="<?php echo $sitio; ?>/soluciones/cuadro-de-mando-integral.php">
 												<div class="box">
 													<div class="foto">
 														<img src="<?php echo $sitio; ?>/images/menu/CMI_menu.jpg"
@@ -298,6 +299,20 @@ inicio del menu
 													</div>
 													<div class="texto">
 														<h4>CMI</h4>
+														<div class="descripcion">
+															<p>Cuadro de mando integral</p>
+														</div>
+													</div>
+												</div>
+											</a>
+											<a href="<?php echo $sitio; ?>/">
+												<div class="box">
+													<div class="foto">
+														<img src="<?php echo $sitio; ?>/images/menu/expertis_menu.jpg"
+															alt="imagen de relleno" width="70" height="48" />
+													</div>
+													<div class="texto">
+														<h4>eXpertis ERP-CRM</h4>
 														<div class="descripcion">
 															<p>Cuadro de mando integral</p>
 														</div>

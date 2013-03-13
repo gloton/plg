@@ -1,0 +1,12 @@
+#accordion {
+	width: 285px;
+}
+#accordion.ui-widget { 
+	font-family: Verdana,Arial,sans-serif; 
+	font-size: 11px;
+}
+.ui-accordion p a {
+	color: #F15D22;
+	font-style: italic;
+	font-weight: bold;
+}

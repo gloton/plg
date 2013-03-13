@@ -88,9 +88,7 @@ $selected = "NOTICIAS";
 									<span>Martes 06 de Marzo de 2013</span>
 								</div>
 								<div class="postCategory">
-									<!-- 
 									<span>Novedades</span>
-									 -->
 								</div>
 								<div class="postDetail">
 									<p>La empresa española SOLMICRO, que cuenta con el software ERP
@@ -100,7 +98,7 @@ $selected = "NOTICIAS";
 						</div>
 						<div class="postInf">
 							<a href="plataformagroup-es-partner-solmicro.php"> <span
-								class="postMore"> Leer mas... </span>
+								class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>
@@ -132,7 +130,7 @@ $selected = "NOTICIAS";
 						<div class="postInf">
 
 							<a href="caso-de-exito-pb-soluciones-banco-bci.php"> <span
-								class="postMore"> Leer mas... </span>
+								class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>
@@ -165,7 +163,7 @@ $selected = "NOTICIAS";
 						<div class="postInf">
 
 							<a href="plataforma-brp-para-banco-santander.php"> <span
-								class="postMore"> Leer mas... </span>
+								class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>
@@ -198,7 +196,7 @@ $selected = "NOTICIAS";
 						<div class="postInf">
 
 							<a href="lanzamiento-plataforma-de-remates-en-vivo.php"> <span
-								class="postMore"> Leer mas... </span>
+								class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>
@@ -232,7 +230,7 @@ $selected = "NOTICIAS";
 						<div class="postInf">
 
 							<a href="sistema-de-control-de-asistencia-cvc-comao.php"> <span
-								class="postMore"> Leer mas... </span>
+								class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>

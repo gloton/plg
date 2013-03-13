@@ -26,7 +26,7 @@ $pagina = "EQUIPO "?>
     	<?php include_once("../partes/breadcrumbs.php");?>
 		<div id="equipo-top" class="sc-box">
 				<div id="equipo-organigrama">
-					<img src="../images/organigrama.png" width="567" height="538" />
+					<img src="../images/organigrama.png" alt="Organigrama" title="Organigrama de Plataforma Group" />
 				</div>
 				<div id="equipo-desc">
 					<h2>Equipo de Trabajo</h2>
@@ -46,18 +46,17 @@ $pagina = "EQUIPO "?>
 			<!--jgl cajitas inicio-->
 			<div class="post-content">
 				<div class="sc-col-4-1">
+					<h4>Comercial:</h4>
+					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
+					<p>Área dedicada a la elaboración de las estrategias comerciales de
+						Plataforma Group</p>
+				</div>			
+				<div class="sc-col-4-1">
 					<h4>Area de Desarrollo:</h4>
 					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
 					<p>Departamento responsable del análisis y construcción de
 						proyectos informáticos, tanto los desarrollos a medida como los
 						evolutivos de nuestros productos</p>
-				</div>
-				<div class="sc-col-4-1">
-					<h4>Area de Servicing:</h4>
-					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
-					<p>Departamento dedicado a la post venta, servicio y atención del
-						cliente, basado en las dos áreas de Mesa de ayuda y Desarrollo y/o
-						soporte y continuidad de servicio.</p>
 				</div>
 				<div class="sc-col-4-1">
 					<h4>Area QA:</h4>
@@ -67,14 +66,18 @@ $pagina = "EQUIPO "?>
 						departamento de desarrollo como en el área de Servicing.</p>
 				</div>
 				<div class="sc-col-4-1 sc-last">
-					<h4>Area Service Tonic:</h4>
+					<h4>Soporte IT:</h4>
 					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
-					<p>Departamento de la empresa dedicada única y exclusivamente a la
-						representación, comercialización y configuración de un sistema
-						llamado Service Tonic, software español orientado entre otras
-						cosas a las áreas de Help desk.</p>
+					<p>Equipo responsable de la continuidad operacional de los
+						servicios que proveemos a nuestros clientes</p>
 				</div>
-				<div class="clearfix"></div>
+				<div class="sc-col-4-1">
+					<h4>Area de Servicing:</h4>
+					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
+					<p>Departamento dedicado a la post venta, servicio y atención del
+						cliente, basado en las dos áreas de Mesa de ayuda y Desarrollo y/o
+						soporte y continuidad de servicio.</p>
+				</div>
 				<div class="sc-col-4-1">
 					<h4>Area Nuevos Negocios:</h4>
 					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
@@ -83,25 +86,20 @@ $pagina = "EQUIPO "?>
 						de los clientes actuales.</p>
 				</div>
 				<div class="sc-col-4-1">
-					<h4>Soporte IT:</h4>
-					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
-					<p>Equipo responsable de la continuidad operacional de los
-						servicios que proveemos a nuestros clientes</p>
-				</div>
-				<div class="sc-col-4-1">
-					<h4>Comercial:</h4>
-					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
-					<p>Área dedicada a la elaboración de las estrategias comerciales de
-						PLG</p>
-				</div>
-				<div class="sc-col-4-1 sc-last">
 					<h4>Expertis:</h4>
 					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
 					<p>Departamento cuya misión es la comercialización, implementación
 						y soporte de la solución española de ERP/CRM Solmicro-Expertis
-						partner de PLG</p>
+						partner de Plataforma Group</p>
 				</div>
-				<div class="clear"></div>
+				<div class="sc-col-4-1 sc-last">
+					<h4>Area ServiceTonic:</h4>
+					<div style="margin-top: 0px; margin-bottom: 0px;" class="sc-hr"></div>
+					<p>Departamento de la empresa dedicada única y exclusivamente a la
+						representación, comercialización y configuración de un sistema
+						llamado Service Tonic, software español orientado entre otras
+						cosas a las áreas de Help desk.</p>
+				</div>
 			</div>
 			<!--jgl cajitas fin-->
 		</div>

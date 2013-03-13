@@ -19,7 +19,7 @@ $mail->FromName = "Contacto desde Web";
 
 $mail->Subject = $asunto;
 
-$mail->AddAddress("contacto@platafomagoup.cl","Contacto PlataformaGroup");
+$mail->AddAddress("contacto@plataformagroup.cl","Contacto PlataformaGroup");
 
 $mail->AddAddress ( "jorge@w7.cl", "Jorge gatica" );
 

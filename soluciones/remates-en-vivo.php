@@ -66,7 +66,7 @@ $pagina = "REMATES EN VIVO ";
 					</ul>
 					<!-- y los div tienen el contenido de cada tab -->
 					<div id="pestana1">
-						<h3>Que es la plataforma de remate en línea</h3>
+						<h3>Que es la plataforma de remate en vivo</h3>
 						<p>Nuestra plataforma de remates en línea, única en chile, es un
 							moderno servicio de subastas no presenciales mediante el cual un
 							cliente puede suscribir su participación a un remate e ingresar a
@@ -78,7 +78,7 @@ $pagina = "REMATES EN VIVO ";
 							internet de la adrenalina del salón de remates, que es lo que
 							permite mejorar la puja y el precio final. Esto es posible ya que
 							la internet se transforma en una extensión del salón y por tanto
-							los ciber-postores participan como un postor mas en el remate,
+							los ciber-postores participan como un postor más en el remate,
 							escuchando lo que se conversa en el salón y recibiendo toda la
 							energía que en el se genera.</p>
 					</div>
@@ -87,9 +87,9 @@ $pagina = "REMATES EN VIVO ";
 						<ul class="caracteristicas">
 							<li>Participación de postores que de otra manera no estarían en
 								el remate</li>
-							<li>Mejora de los precios al tener mas participantes por el mismo
+							<li>Mejora de los precios al tener más participantes por el mismo
 								lote</li>
-							<li>Catalogo en línea del remate con fotos e integrado a la línea
+							<li>Catálogo en línea del remate con fotos e integrado a la línea
 								grafica del cliente proveyendo información en línea al momento
 								del remate</li>
 							<li>Notificación automática de las adjudicaciones por internet
@@ -98,17 +98,17 @@ $pagina = "REMATES EN VIVO ";
 								permitiendo la inscripción previa y automatización de tareas
 								operacionales</li>
 						</ul>
-						<h3>¿Quienes tienen hoy algo así en Chile?</h3>
+						<h3>¿Quiénes tienen hoy algo así en Chile?</h3>
 						<ul class="caracteristicas">
 							<li>Macal tiene un remate en línea como este, pero con una
 								versión anterior del motor de nuestro producto con algunas
-								deficiencias.</li>
+								deficiencias</li>
 							<li>CGRemates hace los remates de Minera Escondida desde el año
-								pasado en una plataforma montada sobre nuestro Producto</li>
+								pasado en una plataforma montada sobre nuestro producto</li>
 							<li>NazcoChile comienza la capacitación para su primer remate la
-								próxima semana.</li>
-							<li>Tattersall esta en conversaciones para cambiar su plataforma
-								on-line por la nuestra.</li>
+								próxima semana</li>
+							<li>Tattersall está en conversaciones para cambiar su plataforma
+								on-line por la nuestra</li>
 						</ul>
 					</div>
 					<div id="pestana3">

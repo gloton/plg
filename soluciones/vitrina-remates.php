@@ -85,11 +85,12 @@ $pagina = "VITRINA REMATES ";
 							acceso a las mejoras evolutivas de nuestros productos que le
 							permitirán tener en todo momento, una herramienta de vanguardia y
 							adaptada para enfrentar todas las problemáticas futuras.</p>
-						<h3>Remates en Línea</h3>
+						<h3>Remates en Vivo</h3>
 						<p>
 							Adicionalmente, nuestro producto puede integrarse con nuestro
-							moderno servicio de Remates en Línea, <span>el cual consiste en
-								una representación virtual del salón de muy fácil uso</span>.
+							moderno servicio de Remates en Vivo, <span>el cual consiste en 
+							una representación virtual del salón de remates, de una manera 
+							fácil y amigable</span>.
 							Actualmente ya cuenta con importantes clientes, <span>que han
 								podido extender su salón de remates literalmente al mundo
 								entero, mediante una plataforma robusta que permite, además, que
@@ -125,7 +126,7 @@ $pagina = "VITRINA REMATES ";
 								un bien y desplegarlo después a petición en la Web. (Ej. Bases
 								de un remate, certificado de anotaciones de un vehículo,
 								especificaciones técnicas de una máquina, etc)</li>
-							<li>Manejo de registro de clientes para envío de mails o
+							<li>Registro de clientes para envío de mails,
 								información de remates o venta directa manejando una base de
 								datos para uso posterior.</li>
 							<li>Módulo de administración de imágenes que permite crear tipos
