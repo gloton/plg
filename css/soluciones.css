@@ -11,6 +11,10 @@
 .theme1_top {
 	
 }
+.theme1_left {
+	float: left;
+	width: 245px;
+}
 
 #pestanas {
 	margin-bottom: 20px;

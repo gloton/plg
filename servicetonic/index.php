@@ -8,18 +8,12 @@ $selected = "PRODUCTOS Y SERVICIOS";
 $pagina = "SERVICETONIC "?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?=$pagina?> <?=NOMBRE_EMPRESA ?></title>
-<link type="text/css" rel="stylesheet"
-	href="<?php echo $sitio; ?>/css/reset.css" />
-<link type="text/css" rel="stylesheet"
-	href="<?php echo $sitio; ?>/css/styles.css" />
-<link type="text/css" rel="stylesheet"
-	href="<?php echo $sitio; ?>/css/styles-shine.css" />
-<link type="text/css" rel="stylesheet"
-	href="<?php echo $sitio; ?>/css/servicetonic.css" />
-<link rel="stylesheet" href="../js/easybox/easybox.min.css"
-	type="text/css" media="screen" />
-<script type="text/javascript"
-	src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/reset.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/styles.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/styles-shine.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo $sitio; ?>/css/servicetonic.css" />
+<link rel="stylesheet" href="../js/easybox/easybox.min.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="../js/easybox/easybox.min.js"></script>
 <script type="text/javascript" src="../js/jquery.featureList-1.0.0.js"></script>
 <!-- inicio js para el tab vertical slider -->

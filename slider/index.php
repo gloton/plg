@@ -46,7 +46,7 @@
 				</div>
 				<div class="SlideItMoo_element">
 					<!--<strong>1: Address</strong>-->
-					<a target="_top" href="#"> <img width="205"
+					<a target="_top" href="../soluciones/expertis.php"> <img width="205"
 						height="140" src="img/expertis_carrusel.jpg"></a>
 					<p style="display: none;">Aca puedo colocar un parrafo</p>
 				</div>

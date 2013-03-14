@@ -208,8 +208,8 @@ $pagina = "ANB";
 							</h3>
 							<div>
 								<p>Módulo en que se administra y lleva el control de las
-									publicaciones de las propiedades en los medios, conectándose
-									directamente a través de Plataforma con la agencia de
+									publicaciones de las propiedades en los medios, conectándose 
+									directamente a través de la Plataforma con la agencia de
 									publicidad que tenga el Banco para dicha tarea, la que carga
 									los avisos y gastos incurridos en los avisos.</p>
 							</div>

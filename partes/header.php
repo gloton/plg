@@ -305,16 +305,17 @@ inicio del menu
 													</div>
 												</div>
 											</a>
-											<a href="<?php echo $sitio; ?>/">
+											<a href="<?php echo $sitio; ?>/soluciones/expertis.php">
 												<div class="box">
 													<div class="foto">
 														<img src="<?php echo $sitio; ?>/images/menu/expertis_menu.jpg"
 															alt="imagen de relleno" width="70" height="48" />
 													</div>
 													<div class="texto">
-														<h4>eXpertis ERP-CRM</h4>
+														<h4>Solmicro-eXpertis</h4>
 														<div class="descripcion">
-															<p>Cuadro de mando integral</p>
+															<p>Software de Gestión ERP CRM
+															</p>
 														</div>
 													</div>
 												</div>

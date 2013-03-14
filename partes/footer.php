@@ -14,20 +14,22 @@
 		<ul class="listafooter menu_footer_col2">
 			<li class="titulista"><a href="javascript:void(0);"
 				title="Area de negocios"><span>Productos y Servicios</span></a></li>
-			<li><a href="<?php echo $sitio; ?>/soluciones/anb.php" title="ANB"><span>ANB</span></a></li>
+			<li><a href="<?php echo $sitio; ?>/soluciones/anb.php" title="ANB"><span>ANB Plataforma de Activos no Bancarios</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/servicetonic/index.php"
-				title="ServiceTonic"><span>ServiceTonic</span></a></li>
+				title="ServiceTonic"><span>ServiceTonic Plataforma de Mesa de Ayuda</span></a></li>
 			<li><a
 				href="<?php echo $sitio; ?>/soluciones/plataforma-cobranza-judicial.php"
-				title="Cobranza Judicial"><span>Cobranza Judicial</span></a></li>
-			<li><a href="<?php echo $sitio; ?>soluciones/remates-en-vivo.php"
-				title="Remates en Vivo"><span>Remates en Vivo</span></a></li>
+				title="Cobranza Judicial"><span>PCJ Plataforma de Cobranza Judicial</span></a></li>
+			<li><a href="<?php echo $sitio; ?>/soluciones/remates-en-vivo.php"
+				title="Remates en Vivo"><span>Plataforma de Remates en Vivo</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/soluciones/vitrina-remates.php"
-				title="Vitrina Remates"><span>Vitrina Remates</span></a></li>
+				title="Vitrina Remates"><span>Vitrina de Remates</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/soluciones/gestion-examenes-medicos-imad.php"
-				title="IMAD"><span>IMAD</span></a></li>
+				title="IMAD"><span>IMAD Gestión para Exámenes Médicos</span></a></li>
 			<li><a href="<?php echo $sitio; ?>/soluciones/cuadro-de-mando-integral.php"
-				title="CMI"><span>CMI</span></a></li>
+				title="CMI"><span>CMI Cuadro de Mando Integral</span></a></li>
+			<li><a href="<?php echo $sitio; ?>/soluciones/expertis.php"
+				title="CMI"><span>Solmicro-eXpertis Software de Gestión ERP CRM</span></a></li>				
 		</ul>
 		<ul class="listafooter menu_footer_col3">
 			<li class="titulista"><a href="javascript:void(0);" title="Clientes"><span>Clientes</span></a></li>
@@ -66,7 +68,7 @@
             </div>
 		<div id="firma-kenya">
 			diseño y desarrollo <a target="_blank" href="http://www.kenya.cl"
-				style="color: #FFFFFF;"> <strong>kenya.cl<img id="img_logo_kenya"
+				style="color: #333333;"> <strong>kenya.cl<img id="img_logo_kenya"
 					height="25" width="25"
 					src="<?php echo $sitio; ?>/images/grafico-logo.png"
 					alt="Logo kenya.cl diseño y desarrollo web"></strong>
