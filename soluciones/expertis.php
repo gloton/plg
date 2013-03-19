@@ -238,7 +238,7 @@ p.contactenos {
 								<p>Con Solmicro Cloud mejorará su gestión. Mejorará su competitividad.
 								</p>
 							</div>
-							<p class="contactenos">Para más información <a href="mailto:contacto@plataformagroup.cl" class="naranjo">contáctenos</a> o visite <a class="naranjo" href="http://erpcloudsolmicro.com/index.php/oferta-de-servicios/software-en-alquiler/conf-personalizable-funcionalidades-y-servicios" title="Pagina Solmicro" target="_blank">Solmicro</a></p>
+							<p class="contactenos">Para más información <a href="mailto:contacto@plataformagroup.cl" class="naranjo">contáctenos</a> o visite <a class="naranjo" href="http://erpcloudsolmicro.com/" title="Pagina Solmicro" target="_blank">Solmicro</a></p>
 						</div>
 					</div>
 					<div id="pestana5">

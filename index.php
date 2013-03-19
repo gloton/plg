@@ -253,7 +253,7 @@ $(function() {
 								<p>
 									Posterior a su implementación, Banco Santander continuó junto a
 									nosotros con el servicio de mantención y <a
-										href="noticias/caso-de-exito-pb-soluciones-banco-bci.php"
+										href="noticias/plataforma-brp-para-banco-santander.php"
 										target="_self"> <span class="vermas">Ver más ></span>
 									</a>.
 								</p>
