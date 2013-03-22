@@ -12,7 +12,7 @@ if (is_file ( "../lib/general.php" )) {
 $selected = "NOTICIAS";
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?=$selected;?> « Plataforma Group</title>
+<title>Lanzamiento Plataforma de Remates en Vivo « Plataforma Group</title>
 <link type="text/css" rel="stylesheet" href="../css/styles.css" />
 <link type="text/css" rel="stylesheet" href="../css/blog/styles.css" />
 <script
@@ -135,7 +135,7 @@ $selected = "NOTICIAS";
 							Esta poderosa herramienta permite la realización en línea de
 							todos los tipos de remates habituales del mercado, incluyendo
 							remates con derecho de selección de cantidad. Para mayor
-							información contáctenos a: <a
+							información contáctenos a: <a class="naranjo"
 								href="mailto:contacto@plataformagroup.cl">contacto@plataformagroup.cl</a>
 						</p>
 					</div>

@@ -5,7 +5,8 @@
 include_once ("../lib/constantes.php");
 include_once ("../lib/general.php");
 $selected = "CLIENTES";
-$pagina = CLIENTES?>
+$pagina = "Nuestros Clientes";
+?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?=$pagina?> <?=NOMBRE_EMPRESA ?></title>
 <link type="text/css" rel="stylesheet" href="../css/styles.css" />

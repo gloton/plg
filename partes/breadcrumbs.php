@@ -7,7 +7,8 @@
 <body>
 <!-- jgl - inicio breadcrumbs -->
     	<div id="breadcrumbs">
-	    	<?php 
+	    	<?php
+	    		$mn_ppal_capitazado = "";
 	    		//http://php.net/manual/es/function.setlocale.php
 	    		//setlocale(LC_ALL, "tr_TR.UTF-8");
 	    		$mn_ppal = strtr(strtolower($selected), "ÁÉÍÓÚÑ", "áéíóúñ");

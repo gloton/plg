@@ -121,22 +121,6 @@ a:hover {
 	background: url("../images/email_light.png") no-repeat scroll 0 0
 		transparent;
 }
-
-.facebook {
-	background: url("../images/facebook.png") no-repeat scroll 0 0
-		transparent;
-}
-
-.linkedin {
-	background: url("../images/linkedin.png") no-repeat scroll 0 0
-		transparent;
-}
-
-.twitter {
-	background: url("../images/twitter.png") no-repeat scroll 0 0
-		transparent;
-}
-
 .acceso {
 	background: url("../images/bg_acceso.png") no-repeat scroll 0 0
 		transparent;
@@ -373,8 +357,7 @@ ul.children.bloque2 {
 }
 
 .nivo-controlNav a {
-	background: url("../images/nivo-thumb-bg.png") no-repeat scroll 0 0
-		transparent;
+	background: url("../images/nivo-thumb-bg.png") no-repeat scroll 0 0	transparent;
 	cursor: pointer;
 	display: block;
 	float: left;
@@ -567,7 +550,7 @@ div.left_col strong span {
 	padding-top: 10px;
 	position: relative;
 	top: 1px;
-	width: 300px;
+	width: 360px;
 }
 
 #footer div#datos-footer ul li {

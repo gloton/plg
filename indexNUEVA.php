@@ -47,7 +47,7 @@ dl.tabs.enabled dd.active {
 			boxCols:8,
 			boxRows:4,
 			animSpeed:800,
-			pauseTime:10000,
+			pauseTime:15000,
 			startSlide:<?=rand(0,3)?>,
 			captionOpacity:1,
 			directionNav:true,
@@ -131,10 +131,11 @@ $(function() {
 					<div id="accordion">
 						<h3>Lanzamiento Plataforma de Remates en Vivo</h3>
 						<div>
-							<p>Con gran orgullo ponemos a disposición del mercado nuestro moderno 
-							servicio de <a href="soluciones/remates-en-vivo.php" title="Producto Remates en vivo" target="_self">REMATES EN VIVO</a> el cual permite desde un computador 
-							interactuar en cualquier parte del mundo con el Salón de Remates.
-							<a href="noticias/lanzamiento-plataforma-de-remates-en-vivo.php" title="Noticia Remates en vivo" target="_self"><span class="vermas">Ver más &gt;</span></a>
+							<p><a href="soluciones/remates-en-vivo.php" target="_self" title="Pagina remates en vivo">REMATES EN VIVO</a> es una robusta plataforma tecnológica y de servicios 
+							que permite que los participantes web estén escuchando lo que sucede en 
+							el Salón de Remates y contagiándose de la adrenalina del mismo, a su vez 
+							los participantes del Salón pueden ver en línea las posturas que realizan 
+							los participantes de internet.
 							</p>							
 						</div>
 						<h3>Sistema de control de Asistencia CVC-COMAO</h3>
@@ -142,16 +143,34 @@ $(function() {
 							<p>Durante el mes de octubre se comenzó la marcha blanca del
 								Control de Asistencia desarrollado para CVC-COMAO, empresa que
 								provee servicios de aseo y vigilancia a terceros.
-								<a href="noticias/sistema-de-control-de-asistencia-cvc-comao.php" title="Control de asistencia CVC" target="_self"><span class="vermas">Ver más &gt;</span></a>
+							</p>
+							<p>Este control de asistencia fue diseñado para que los
+								supervisores puedan accederlo vía celular y en terreno, pudiendo
+								conocer y controlar: cuando un trabajador registra vía celular y
+								en línea su asistencia o inasistencia, bonos y horas extras
+								asociados a centros de costos, registro de coordenadas del GPS
+								del teléfono permitiéndole esto tener la ubicación desde donde
+								se hizo la transacción, etc..
+							</p>
+							<p>Finalmente toda la información recolectada se inyecta
+								mensualmente al ERP de la empresa.
 							</p>
 						</div>
-						<h3>Certificación ISO 9001:2008</h3>
+						<h3>Certificación ISO9001</h3>
 						<div>
 							<p>Durante la tercera semana de Octubre nuestra empresa concluyó
 								satisfactoriamente el proceso de certificación ISO 9001-2008.
 								Certificando de acuerdo a esta norma de calidad todo el proceso
 								de "DISEÑO, DESARROLLO, SOPORTE y COMERCIALIZACION DE SOFTWARE".
-								<a href="noticias/certificacion-iso9001.php" title="Control de asistencia CVC" target="_self"><span class="vermas">Ver más &gt;</span></a>
+							</p>
+							<p>Fue un trabajo duro que nos tomó casi 10 meses de trabajo de
+								todo nuestro equipo, liderado por nuestro Gerente de Servicing
+								quien trabajo a la par con los consultores de la empresa.
+							</p>
+							<p>Creadero en el diseño nuestros sistema de gestión de calidad
+								que fue auditado y aprobado por Bureau Veritas. Agradecemos a
+								todos y cada uno de los miembros de nuestra empresa y de la
+								empresa consultora por el apoyo prestado en todo este camino.
 							</p>
 						</div>
 					</div>					
@@ -162,7 +181,7 @@ $(function() {
 						<dl class="tabs">
 							<dt>Producto Destacado</dt>
 							<dd>
-								<h4>PLATAFORMA GROUP partner de Solmicro-eXpertis ERP CRM</h4>
+								<h4>PLATAFORMA GROUP es partner de SOLMICRO</h4>
 								<p>
 									<img src="images/solmicro_186px.jpg" alt="Solmicro"
 										style="float: right;" />La empresa española SOLMICRO, que
@@ -174,7 +193,7 @@ $(function() {
 									verticales ERP específicos para cada sector: Industrial,
 									Ingenierías, Alquiler de Maquinaria, Bodegas, Construcción,
 									Gestión de Inmuebles, Instaladoras, Servicios, Business
-									Intelligence, Mantenimiento, RR.HH., e-Commerce, TPV, CRM y CRM
+									Intelligence, Mantenimiento, RR.HH., e-Commerce, TPV. CRM y CRM
 									Tablet. <strong>Todo dentro de una única solución integrada</strong>.
 									<a href="noticias/plataformagroup-es-partner-solmicro.php"
 										target="_self"><span class="vermas">Ver más ></span></a>

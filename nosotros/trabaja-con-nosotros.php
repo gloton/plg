@@ -1,4 +1,11 @@
 <?php
+if (is_file ( "../lib/general.php" )) {
+	include_once ("../lib/constantes.php");
+	include_once ("../lib/general.php");
+} else {
+	include_once ("lib/constantes.php");
+	include_once ("lib/general.php");
+}
 /*
 este formulario utiliza la clase PHPMailer para el envio y proceso.
 Es solo un ejemplo de una posible implementacion de PHPMailer
@@ -122,8 +129,7 @@ $mensaje='<div id="error">- Los Campos Marcados Con * Son Requeridos. '.$error_a
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <?php
-include_once("../lib/constantes.php");
-include_once("../lib/general.php");
+
 $selected = "NOSOTROS";
 $pagina = "TRABAJA CON NOSOTROS "
 ?>
@@ -155,7 +161,7 @@ $pagina = "TRABAJA CON NOSOTROS "
 						<h4>Postula a Plataforma Group</h4>
 						<img src="../images/tablero-ajedres.png" width="476" height="221" />
 						<p>
-							En Plataformagroup estamos en constante búsqueda de los mejores
+							En Plataforma Group estamos en constante búsqueda de los mejores
 							profesionales para potenciar nuestras áreas de negocios. Si
 							quieres integrarte a un equipo de profesionales con basta
 							experiencia, encontrar un excelente clima laboral y muchas

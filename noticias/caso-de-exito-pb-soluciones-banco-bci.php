@@ -12,7 +12,7 @@ if (is_file ( "../lib/general.php" )) {
 $selected = "NOTICIAS";
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?=$selected;?> « Plataforma Group</title>
+<title>Caso de éxito PB Soluciones - Banco BCI « Plataforma Group</title>
 <link type="text/css" rel="stylesheet" href="../css/styles.css" />
 <link type="text/css" rel="stylesheet" href="../css/blog/styles.css" />
 <script
@@ -134,8 +134,9 @@ $selected = "NOTICIAS";
 							2012, registrando incidencias y midiendo la responsabilidad de
 							todos los involucrados, sabiendo quien incumple y porque motivos,
 							con los tiempos previamente pactados para reponer un cajero en
-							línea.</p>
-						<p>Este seguimiento ha permitido al banco contar con información
+							línea.
+						</p>
+						<p>Este seguimiento ha permitido al Banco contar con información
 							que anteriormente desconocía, como: el origen de las fallas y
 							quien tiene la responsabilidad en cada momento. Así mismo tener
 							claridad respecto de que marcas/modelos de cajeros presentan
@@ -144,14 +145,16 @@ $selected = "NOTICIAS";
 							dinero) o bien que cajeros están presentando errores reiterados
 							por motivos que sería fácil solucionar de forma definitiva. Esta
 							información es vital y se traduce directamente en un ahorro
-							significativo de recursos para el banco además de mejorar el
-							servicio que presta a sus clientes.</p>
+							significativo de recursos para el Banco además de mejorar el
+							servicio que presta a sus clientes.
+						</p>
 						<p>El siguiente paso será la implementación de una interfaz
 							geo-referenciada (montada sobre ServiceTonic) que permitirá
-							mostrar un mapa de chile con la ubicación exacta de los cajeros y
+							mostrar un mapa de Chile con la ubicación exacta de los cajeros y
 							saber cuáles están fuera de servicio, el motivo y la fecha/hora
 							esperada de vuelta a línea, lo que se espera esté funcionando en
-							Junio de 2013.</p>
+							Junio de 2013.
+						</p>
 					</div>
 				</div>
 				<!-- End Left Column -->

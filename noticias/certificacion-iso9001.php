@@ -12,7 +12,7 @@ if (is_file ( "../lib/general.php" )) {
 $selected = "NOTICIAS";
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?=$selected;?> « Plataforma Group</title>
+<title>Certificación ISO 9001:2008 « Plataforma Group</title>
 <link type="text/css" rel="stylesheet" href="../css/styles.css" />
 <link type="text/css" rel="stylesheet" href="../css/blog/styles.css" />
 <script
@@ -106,7 +106,7 @@ $selected = "NOTICIAS";
 			<div id="wrapperBlog">
 				<!-- Begin Left Column -->
 				<div id="leftcolumn">
-					<h1>Certificación ISO9001</h1>
+					<h1>Certificación ISO 9001:2008</h1>
 					<div class="detalle_post">
 						<div class="wrap_datos">
 							<div class="postDate">
@@ -125,10 +125,10 @@ $selected = "NOTICIAS";
 							Certificando de acuerdo a esta norma de calidad todo el proceso
 							de "DISEÑO, DESARROLLO, SOPORTE y COMERCIALIZACION DE SOFTWARE".
 						</p>
-						<p>Fue un trabajo duro que nos tomó casi 10 meses de trabajo de
+						<p>Fue un proceso intenso que tomó casi 10 meses de trabajo de
 							todo nuestro equipo, liderado por nuestro Gerente de Servicing
 							quien trabajo a la par con los consultores de la empresa.</p>
-						<p>Creadero en el diseño nuestros sistema de gestión de calidad
+						<p>Creadero, en el diseño nuestros sistema de gestión de calidad
 							que fue auditado y aprobado por Bureau Veritas. Agradecemos a
 							todos y cada uno de los miembros de nuestra empresa y de la
 							empresa consultora por el apoyo prestado en todo este camino.</p>

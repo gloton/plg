@@ -246,7 +246,7 @@ $selected = "NOTICIAS";
 							</div>
 							<div class="introText">
 								<div class="postTitle">
-									<h2>Certificación ISO9001</h2>
+									<h2>Certificación ISO 9001:2008</h2>
 								</div>
 								<div class="postDate">
 									<span>Martes 05 de Marzo de 2013</span>
@@ -262,8 +262,7 @@ $selected = "NOTICIAS";
 						</div>
 						<div class="postInf">
 
-							<a href="certificacion-iso9001.php"> <span class="postMore"> Leer
-									mas... </span>
+							<a href="certificacion-iso9001.php"> <span class="postMore">Leer más...</span>
 							</a>
 						</div>
 					</div>

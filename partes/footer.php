@@ -58,8 +58,7 @@
 				<li>Monjitas #527, Of. 1316</li>
 				<li>Santiago</li>
 				<li>Tel. (562) 2 963 8030</li>
-				<li style="margin-left: 147px;"><a
-					href="<?php echo $sitio; ?>/contacto.php"><span>contacto@plataformagroup.cl</span></a></li>
+				<li style="margin-left: 138px;"><a href="mailto:contacto@plataformagroup.cl"><span>contacto@plataformagroup.cl</span></a></li>
 			</ul>
 		</div>
 	</div>

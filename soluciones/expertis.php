@@ -193,7 +193,6 @@ p.contactenos {
 					</div>
 					<div id="pestana3">
 						<div class="caract_exper">
-							<h2>Beneficios</h2>
 							<div class="col1">
 								<img src="../images/soluciones/expertis/beneficios.png" alt="Beneficios" />
 							</div>
