@@ -110,7 +110,7 @@ $selected = "NOTICIAS";
 					<div class="detalle_post">
 						<div class="wrap_datos">
 							<div class="postDate">
-								<span>Martes 06 de Marzo de 2013</span>
+								<span>Sábado 03 de Noviembre de 2012</span>
 							</div>
 							<div class="postCategory">
 								<span>Novedades</span>

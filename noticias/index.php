@@ -85,7 +85,7 @@ $selected = "NOTICIAS";
 									<h2>PLATAFORMA GROUP es partner de SOLMICRO</h2>
 								</div>
 								<div class="postDate">
-									<span>Martes 06 de Marzo de 2013</span>
+									<span>Sábado 01 de Diciembre de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Novedades</span>
@@ -116,7 +116,7 @@ $selected = "NOTICIAS";
 									<h2>Caso de éxito PB Soluciones - Banco BCI</h2>
 								</div>
 								<div class="postDate">
-									<span>Miércoles 06 de Marzo de 2013</span>
+									<span>Miércoles 01 de Febrero de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Novedades</span>
@@ -149,7 +149,7 @@ $selected = "NOTICIAS";
 									<h2>Plataforma BRP para Banco SANTANDER</h2>
 								</div>
 								<div class="postDate">
-									<span>Miércoles 06 de Marzo de 2013</span>
+									<span>Viernes 10 de Febrero de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Novedades</span>
@@ -182,7 +182,7 @@ $selected = "NOTICIAS";
 									<h2>Lanzamiento Plataforma de Remates en Vivo</h2>
 								</div>
 								<div class="postDate">
-									<span>Martes 05 de Marzo de 2013</span>
+									<span>Domingo 01 de Enero de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Noticias</span>
@@ -216,7 +216,7 @@ $selected = "NOTICIAS";
 									<h2>Sistema de control de Asistencia CVC-COMAO</h2>
 								</div>
 								<div class="postDate">
-									<span>Martes 05 de Marzo de 2013</span>
+									<span>Sábado 10 de Noviembre de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Noticias</span>
@@ -249,7 +249,7 @@ $selected = "NOTICIAS";
 									<h2>Certificación ISO 9001:2008</h2>
 								</div>
 								<div class="postDate">
-									<span>Martes 05 de Marzo de 2013</span>
+									<span>Sábado 03 de Noviembre de 2012</span>
 								</div>
 								<div class="postCategory">
 									<span>Noticias</span>
